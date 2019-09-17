@@ -89,8 +89,7 @@ router.post("/email", (req, res) => {
 			auth: {
 				type: "OAuth2",
 				user: "jake@bluespacecreative.com",
-				clientId:
-					"293225933468-ulg21jitkr6l1lo1dle0ke3nmm8u7l46.apps.googleusercontent.com",
+				clientId: secrets.clientId,
 				clientSecret: "qBJpn3iE_j2b2RFDTJP50Ivc",
 				refreshToken: "1/wFTZdJSSM0ZJPjhYMap8T9zlcqyepH1E8dDxj9kJ-w0",
 				accessToken: accessToken
