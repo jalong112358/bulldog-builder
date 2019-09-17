@@ -40,7 +40,6 @@ router.post("/add", (req, res) => {
 			info: info
 		});
 	}
-	// console.log(req.body.id);
 
 	const newProduct = new Product({
 		productName: productName,
@@ -73,41 +72,28 @@ router.post("/email", (req, res) => {
 		console.log(buildData);
 
 		//Send email
-		// const oauth2Client = new OAuth2(
-		// 	secrets.clientId, // ClientID
-		// 	secrets.clientSecret, // Client Secret
-		// 	"https://developers.google.com/oauthplayground" // Redirect URL
-		// );
+		const oauth2Client = new OAuth2(
+			secrets.clientId, // ClientID
+			secrets.clientSecret, // Client Secret
+			"https://developers.google.com/oauthplayground" // Redirect URL
+		);
 
-		// oauth2Client.setCredentials({
-		// 	refresh_token: secrets.refreshToken
-		// });
-		// const accessToken = oauth2Client.getAccessToken();
+		oauth2Client.setCredentials({
+			refresh_token: secrets.refreshToken
+		});
+		const accessToken = oauth2Client.getAccessToken();
 
-		// let smtpTransport = nodemailer.createTransport({
-		// 	service: "gmail",
-		// 	secure: false,
-		// 	auth: {
-		// 		type: "OAuth2",
-		// 		user: secrets.email,
-		// 		clientId: secrets.clientId,
-		// 		clientSecret: secrets.clientSecret,
-		// 		refreshToken: secrets.refreshToken,
-		// 		accessToken: accessToken
-		// 	}
-		// });
-
-		let transporter = nodemailer.createTransport({
+		let smtpTransport = nodemailer.createTransport({
 			service: "gmail",
 			secure: false,
-
 			auth: {
-				type: "oauth2",
-				user: secrets.email,
-				clientId: secrets.clientId,
-
-				clientSecret: secrets.clientSecret,
-				refreshToken: secrets.refreshToken
+				type: "OAuth2",
+				user: "jake@bluespacecreative.com",
+				clientId:
+					"293225933468-ulg21jitkr6l1lo1dle0ke3nmm8u7l46.apps.googleusercontent.com",
+				clientSecret: "qBJpn3iE_j2b2RFDTJP50Ivc",
+				refreshToken: "1/wFTZdJSSM0ZJPjhYMap8T9zlcqyepH1E8dDxj9kJ-w0",
+				accessToken: accessToken
 			}
 		});
 
@@ -129,13 +115,14 @@ router.post("/email", (req, res) => {
 				"</p></div>"
 		};
 
-		transporter.sendMail(mailOptions, (error, response) => {
+		smtpTransport.sendMail(mailOptions, (error, response) => {
 			error
 				? res.json({
 						errors: { smtp: true },
 						success: false
 				  })
 				: res.json({ errors: { smtp: false }, success: true });
+			smtpTransport.close();
 		});
 	}
 });
