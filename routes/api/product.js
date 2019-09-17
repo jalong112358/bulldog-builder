@@ -88,9 +88,9 @@ router.post("/email", (req, res) => {
 			secure: false,
 			auth: {
 				type: "OAuth2",
-				user: "jake@bluespacecreative.com",
+				user: secrets.email,
 				clientId: secrets.clientId,
-				clientSecret: "qBJpn3iE_j2b2RFDTJP50Ivc",
+				clientSecret: secrets.clientSecret,
 				refreshToken: "1/wFTZdJSSM0ZJPjhYMap8T9zlcqyepH1E8dDxj9kJ-w0",
 				accessToken: accessToken
 			}
