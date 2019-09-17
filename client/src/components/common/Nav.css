@@ -1,0 +1,296 @@
+nav {
+	width: 100%;
+	display: flex;
+	z-index: 10;
+	justify-content: space-between;
+	box-shadow: 0px -5px 8px 5px rgba(0, 0, 0, 0.75);
+	height: auto;
+	background: rgba(195, 71, 18, 1);
+	background: -webkit-gradient(
+		left top,
+		right top,
+		color-stop(0%, rgba(195, 71, 18, 1)),
+		color-stop(14%, rgba(194, 70, 19, 1)),
+		color-stop(26%, rgba(194, 69, 19, 1)),
+		color-stop(100%, rgba(243, 142, 0, 1))
+	);
+	background: -webkit-linear-gradient(
+		left,
+		rgba(195, 71, 18, 1) 0%,
+		rgba(194, 70, 19, 1) 14%,
+		rgba(194, 69, 19, 1) 26%,
+		rgba(243, 142, 0, 1) 100%
+	);
+	background: -o-linear-gradient(
+		left,
+		rgba(195, 71, 18, 1) 0%,
+		rgba(194, 70, 19, 1) 14%,
+		rgba(194, 69, 19, 1) 26%,
+		rgba(243, 142, 0, 1) 100%
+	);
+	background: -webkit-gradient(
+		linear,
+		left top,
+		right top,
+		from(rgba(195, 71, 18, 1)),
+		color-stop(14%, rgba(194, 70, 19, 1)),
+		color-stop(26%, rgba(194, 69, 19, 1)),
+		to(rgba(243, 142, 0, 1))
+	);
+	background: linear-gradient(
+		to right,
+		rgba(195, 71, 18, 1) 0%,
+		rgba(194, 70, 19, 1) 14%,
+		rgba(194, 69, 19, 1) 26%,
+		rgba(243, 142, 0, 1) 100%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c34712', endColorstr='#f38e00', GradientType=1);
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+
+.bold {
+	font-family: "Gibson-SemiBold";
+	text-transform: uppercase;
+}
+
+.brand-wrapper {
+	clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
+	width: 33%;
+	padding-right: 15px;
+	background-color: white;
+	max-width: 500px;
+}
+
+.brand-wrapper-bg {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+
+	clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,cfcfcf+100 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(
+		left,
+		#ffffff 0%,
+		#cfcfcf 100%
+	); /* FF3.6-15 */
+	background: -webkit-linear-gradient(
+		left,
+		#ffffff 0%,
+		#cfcfcf 100%
+	); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(
+		to right,
+		#ffffff 0%,
+		#cfcfcf 100%
+	); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cfcfcf',GradientType=1 ); /* IE6-9 */
+}
+
+.brand-wrapper a {
+	margin: 0 25px;
+	padding: 25px 0;
+}
+
+.brand-wrapper a img {
+	width: 250px;
+}
+
+@media (max-width: 1165px) {
+	.brand-wrapper a img {
+		width: 175px;
+	}
+}
+
+.nav-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.nav-top {
+	font-size: 13.5px;
+}
+
+.nav-top > ul,
+.nav-bottom > ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+.nav-top > ul > li:hover,
+.nav-bottom > ul > li:hover {
+	text-decoration: underline;
+}
+.submenu {
+	display: none;
+	height: auto;
+	width: auto;
+	top: 35px;
+	left: 0;
+	list-style: none;
+	position: absolute;
+	background-color: white;
+	padding: 25px;
+}
+
+.submenu li:hover a {
+	color: #f38d00;
+}
+.submenu.equipment {
+	width: 550px;
+}
+.submenu.discover {
+	width: 220px;
+}
+.submenu.control {
+	width: 200px;
+}
+.submenu.store {
+	width: 200px;
+}
+.submenu.news {
+	width: 200px;
+}
+.submenu-row {
+	display: flex;
+	margin: 15px 0;
+}
+.submenu-row > ul {
+	margin-right: 10px;
+	width: 100%;
+}
+.submenu-row > ul > li {
+	padding: 5px 0;
+}
+.submenu > li {
+	text-decoration: none !important;
+	padding: 4px 0;
+}
+.submenu a {
+	color: black;
+}
+
+.nav-bottom > ul > li:hover > .submenu {
+	display: flex;
+	flex-direction: column;
+}
+.social-media-icons {
+	display: flex;
+	list-style: none;
+}
+.social-icon {
+	color: white;
+}
+.nav-top ul li {
+	padding: 5px;
+}
+
+.nav-top > ul > li:nth-child(2) {
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.nav-bottom > ul > li {
+	display: inline-block;
+	margin-right: 25px;
+	position: relative;
+	padding-bottom: 25px;
+	overflow: visible;
+}
+.nav-top > ul > li > a,
+.nav-bottom > ul > li > a {
+	color: white;
+	text-decoration: none;
+}
+
+.social-media-icons li a {
+	font-size: 18px;
+}
+.hamburger-icon-wrapper {
+	display: none;
+	padding-right: 25px;
+	align-items: center;
+}
+
+.hamburger-icon {
+	color: white;
+	font-size: 25px;
+}
+
+@media (max-width: 1070px) {
+	.brand-wrapper {
+		width: 80%;
+	}
+	.hamburger-icon-wrapper {
+		display: flex;
+	}
+	.nav-right {
+		display: none;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+		position: fixed;
+		width: 300px;
+		max-width: 80%;
+		height: 100vh;
+		background-color: white;
+		-webkit-box-shadow: -1px 0px 30px 0px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: -1px 0px 30px 0px rgba(0, 0, 0, 0.75);
+		box-shadow: -1px 0px 30px 0px rgba(0, 0, 0, 0.75);
+	}
+	.nav-bottom,
+	.nav-top {
+		width: 100%;
+	}
+	.submenu {
+		position: relative;
+	}
+	.nav-top ul {
+		width: 100%;
+		flex-direction: column;
+		padding: 15px 25px;
+	}
+	.nav-bottom ul {
+		width: 100%;
+		flex-direction: column;
+	}
+	.nav-top ul li a,
+	.nav-bottom ul li a {
+		color: black;
+		text-decoration: none;
+	}
+
+	.nav-bottom ul li {
+		border-top: 1px solid rgb(189, 189, 189);
+		width: 100%;
+
+		padding: 15px 25px;
+		margin: 0;
+	}
+	.nav-bottom ul li:last-child {
+		border-bottom: 1px solid rgb(189, 189, 189);
+	}
+
+	.nav-right.open {
+		display: flex;
+	}
+	.social-media-icons {
+		display: flex !important;
+		flex-direction: row !important;
+		padding: 0 !important;
+	}
+	.social-media-icons li {
+		display: inline-block;
+	}
+	.social-media-icons li a .social-icon {
+		color: rgb(212, 92, 41);
+		font-size: 25px;
+	}
+}

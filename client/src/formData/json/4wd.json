@@ -1,0 +1,1128 @@
+
+{
+    "name": "4WD Options",
+    "stage": 0,
+    "fields": [
+      {
+        "name": "4WD Torsion Flex – 71-00050-11 through 71-000124-11",
+        "stage": 1,
+        "image": "engine.jpg",
+        "selected": false,
+        "fields": [
+          {
+            "name": "30” Row Spacing",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          }, 
+          {
+            "name": "24” Row Spacing",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          },
+          {
+            "name": "35 FT (Depends on Row Spacing and Total Rows Needed)",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          },
+          {
+            "name": "32 FT (Depends on Row Spacing and Total Rows Needed)",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          },
+          {
+            "name": "28 FT (Depends on Row Spacing and Total Rows Needed)",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          },
+          {
+            "name": "Swivel Row Model",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          }, 
+          
+          {
+            "name": "Rigid Row Model",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          }, 
+          {
+            "name": "22” 8 Wave Opener",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          },
+          {
+            "name": "24” 8 Wave Opener",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          }, 
+          {
+            "name": "22” 13 Wave Row Opener",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          },
+          {
+            "name": "22” Straight Opener",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          }, 
+          {
+            "name": "Shank",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          }, 
+          {
+            "name": "Rigid Swingarm",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          }, 
+          {
+            "name": "Folding Swingarm",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          }
+        ]
+      },
+      {
+        "name": "4WD Dietrich – 71-00150-11 through 71-00224-11",
+        "stage": 1,
+        "image": "engine.jpg",
+        "selected": false,
+        "fields": [
+          {
+            "name": "30” Row Spacing",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          }, 
+          {
+            "name": "24” Row Spacing",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          },
+          {
+            "name": "35 FT (Depends on Row Spacing and Total Rows Needed)",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          },
+          {
+            "name": "32 FT (Depends on Row Spacing and Total Rows Needed)",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          },
+          {
+            "name": "28 FT (Depends on Row Spacing and Total Rows Needed)",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          },
+          {
+            "name": "Swivel Row Model",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          }, 
+          
+          {
+            "name": "Rigid Row Model",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          }, 
+          {
+            "name": "22” 8 Wave Opener",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          },
+          {
+            "name": "24” 8 Wave Opener",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          }, 
+          {
+            "name": "22” 13 Wave Row Opener",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          },
+          {
+            "name": "22” Straight Opener",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          }, 
+          {
+            "name": "Shank",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          }, 
+          {
+            "name": "Rigid Swingarm",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          }, 
+          {
+            "name": "Folding Swingarm",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          }
+          
+        ]
+      },
+      {
+        "name": "4WD John Deere Ripper – 71-00250-11 through 71-00299-11",
+        "stage": 1,
+        "image": "engine.jpg",
+        "selected": false,
+        "fields": [
+          {
+            "name": "30” Row Spacing",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          }, 
+          {
+            "name": "24” Row Spacing",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          },
+          {
+            "name": "35 FT (Depends on Row Spacing and Total Rows Needed)",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          },
+          {
+            "name": "32 FT (Depends on Row Spacing and Total Rows Needed)",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          },
+          {
+            "name": "28 FT (Depends on Row Spacing and Total Rows Needed)",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          },
+          {
+            "name": "Swivel Row Model",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          }, 
+          
+          {
+            "name": "Rigid Row Model",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          }, 
+          {
+            "name": "22” 8 Wave Opener",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          },
+          {
+            "name": "24” 8 Wave Opener",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          }, 
+          {
+            "name": "22” 13 Wave Row Opener",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          },
+          {
+            "name": "22” Straight Opener",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          }, 
+          {
+            "name": "Shank",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          }, 
+          {
+            "name": "Rigid Swingarm",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          }, 
+          {
+            "name": "Folding Swingarm",
+            "stage": 2,
+            "image": "engine.jpg",
+            "selected": false,
+            "fields": [
+              {
+                "name": "Electric Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              }, 
+              {
+                "name": "Hydraulic Outflow Gate",
+                "stage": 3,
+                "image": "engine.jpg",
+                "selected": false,
+                "fields": [
+                  
+                ]
+              } 
+            ]
+          }
+        ]
+      }
+      
+    ]
+  }

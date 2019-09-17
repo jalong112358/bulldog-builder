@@ -1,0 +1,42 @@
+@font-face {
+	font-family: "Gibson-Italic";
+
+	src: url(./fonts/Gibson-Italic.otf) format("opentype");
+}
+@font-face {
+	font-family: "Gibson-Regular";
+
+	src: url(./fonts/Gibson-Regular.otf) format("opentype");
+}
+
+@font-face {
+	font-family: "Gibson-SemiBold";
+
+	src: url(./fonts/Gibson-SemiBold.otf) format("opentype");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Gibson-Regular";
+}
+
+main {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.bold-text {
+	font-family: "Gibson-SemiBold";
+}
+
+.italic-text {
+	font-family: "Gibson-Italic";
+}
+
+.disclaimer {
+	font-family: "Gibson-Italic";
+	color: rgb(136, 136, 136);
+	font-size: 14px;
+}

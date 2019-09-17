@@ -1,0 +1,17 @@
+#image-output {
+	width: 550px;
+	height: auto;
+
+	margin-right: 50px;
+}
+#image-output img {
+	width: 100%;
+	height: auto;
+}
+
+@media (max-width: 540px) {
+	#image-output {
+		width: 100%;
+		margin-right: 0px;
+	}
+}

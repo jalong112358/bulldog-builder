@@ -1,0 +1,103 @@
+#product-review {
+	z-index: 1;
+	width: 100%;
+	border: 2px solid lightgrey;
+	padding: 50px;
+	padding-top: 0;
+}
+
+.image-preview {
+	background: rgb(255, 255, 255);
+	background: -moz-linear-gradient(
+		0deg,
+		rgba(255, 255, 255, 0) 0%,
+		rgba(0, 0, 0, 0.14889705882352944) 49%,
+		rgba(255, 255, 255, 0) 50%
+	);
+	background: -webkit-linear-gradient(
+		0deg,
+		rgba(255, 255, 255, 0) 0%,
+		rgba(0, 0, 0, 0.14889705882352944) 49%,
+		rgba(255, 255, 255, 0) 50%
+	);
+	background: linear-gradient(
+		0deg,
+		rgba(255, 255, 255, 0) 0%,
+		rgba(0, 0, 0, 0.14889705882352944) 49%,
+		rgba(255, 255, 255, 0) 50%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
+}
+
+.specs-wrapper {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.specs-wrapper h1 {
+	text-transform: uppercase;
+	color: rgb(212, 92, 41);
+	margin-right: 50px;
+	text-align: right;
+}
+.specs {
+	width: 100%;
+}
+.specs ul {
+	width: 100%;
+	overflow-x: hidden;
+	list-style: none;
+}
+
+.specs ul li:before {
+	float: left;
+	width: 0;
+	white-space: nowrap;
+	content: ". . . . . . . . . . . . . . . . . . . . "
+		". . . . . . . . . . . . . . . . . . . . "
+		". . . . . . . . . . . . . . . . . . . . "
+		". . . . . . . . . . . . . . . . . . . . ";
+}
+
+.specs ul span:first-child {
+	padding-right: 0.33em;
+	background: white;
+}
+
+.specs ul span + span {
+	float: right;
+	padding-left: 0.33em;
+	background: white;
+}
+
+.spec-info {
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+/* .spec-row {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+} */
+.spec-row span {
+	width: 100%;
+}
+
+@media (max-width: 1150px) {
+	#product-review {
+		padding: 25px;
+		padding-top: 0;
+	}
+	.specs-wrapper {
+		flex-direction: column;
+	}
+	.specs-wrapper h1 {
+		margin-right: 0px;
+		margin-bottom: 25px;
+	}
+	.spec-row span {
+		width: 50px;
+	}
+}

@@ -1,0 +1,40 @@
+
+{
+    "name": "Lagoon Feeder Options",
+    "stage": 0,
+    "fields": [
+      {
+        "name": "6NHTB Cornell Pump (LF1367S) – 65-00900-11",
+        "stage": 1,
+        "image": "engine.jpg",
+        "selected": false,
+        "fields": [
+        ]
+      },
+      {
+        "name": "8NNDH Cornell Pump (1008S) – 65-00901-11",
+        "stage": 1,
+        "image": "engine.jpg",
+        "selected": false,
+        "fields": [
+        ]
+      },
+      {
+        "name": "Super Doda 200 Pump (LF1002SU) – 65-00902-11",
+        "stage": 1,
+        "image": "engine.jpg",
+        "selected": false,
+        "fields": [
+        ]
+      },
+      {
+        "name": "10NNT Cornell Pump (LF2110S) – 65-00904-11",
+        "stage": 1,
+        "image": "engine.jpg",
+        "selected": false,
+        "fields": [
+        ]
+      }
+      
+    ]
+  }
