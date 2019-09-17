@@ -136,7 +136,6 @@ router.post("/email", (req, res) => {
 						success: false
 				  })
 				: res.json({ errors: { smtp: false }, success: true });
-			smtpTransport.close();
 		});
 	}
 });
