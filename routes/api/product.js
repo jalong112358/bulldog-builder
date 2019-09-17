@@ -73,27 +73,41 @@ router.post("/email", (req, res) => {
 		console.log(buildData);
 
 		//Send email
-		const oauth2Client = new OAuth2(
-			secrets.clientId, // ClientID
-			secrets.clientSecret, // Client Secret
-			"https://developers.google.com/oauthplayground" // Redirect URL
-		);
+		// const oauth2Client = new OAuth2(
+		// 	secrets.clientId, // ClientID
+		// 	secrets.clientSecret, // Client Secret
+		// 	"https://developers.google.com/oauthplayground" // Redirect URL
+		// );
 
-		oauth2Client.setCredentials({
-			refresh_token: secrets.refreshToken
-		});
-		const accessToken = oauth2Client.getAccessToken();
+		// oauth2Client.setCredentials({
+		// 	refresh_token: secrets.refreshToken
+		// });
+		// const accessToken = oauth2Client.getAccessToken();
 
-		let smtpTransport = nodemailer.createTransport({
+		// let smtpTransport = nodemailer.createTransport({
+		// 	service: "gmail",
+		// 	secure: false,
+		// 	auth: {
+		// 		type: "OAuth2",
+		// 		user: secrets.email,
+		// 		clientId: secrets.clientId,
+		// 		clientSecret: secrets.clientSecret,
+		// 		refreshToken: secrets.refreshToken,
+		// 		accessToken: accessToken
+		// 	}
+		// });
+
+		let transporter = nodemailer.createTransport({
 			service: "gmail",
 			secure: false,
+
 			auth: {
-				type: "OAuth2",
+				type: "oauth2",
 				user: secrets.email,
 				clientId: secrets.clientId,
+
 				clientSecret: secrets.clientSecret,
-				refreshToken: secrets.refreshToken,
-				accessToken: accessToken
+				refreshToken: secrets.refreshToken
 			}
 		});
 
@@ -115,7 +129,7 @@ router.post("/email", (req, res) => {
 				"</p></div>"
 		};
 
-		smtpTransport.sendMail(mailOptions, (error, response) => {
+		transporter.sendMail(mailOptions, (error, response) => {
 			error
 				? res.json({
 						errors: { smtp: true },
