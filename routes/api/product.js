@@ -91,7 +91,7 @@ router.post("/email", (req, res) => {
 				user: secrets.email,
 				clientId: secrets.clientId,
 				clientSecret: secrets.clientSecret,
-				refreshToken: "1/wFTZdJSSM0ZJPjhYMap8T9zlcqyepH1E8dDxj9kJ-w0",
+
 				accessToken: accessToken
 			}
 		});
