@@ -43,7 +43,10 @@ class Submission extends Component {
 							/>
 							<PrintBtn />
 						</div>
-						<div className="btn-row" style={{ margin: "15px 0px 50px 0px" }}>
+						<div className="btn-col" style={{ margin: "50px 0px 50px 0px" }}>
+							<p style={{ marginBottom: "10px" }} className="bold-text">
+								SHARE
+							</p>
 							<UrlDisplay />
 							<ShareBtn />
 						</div>

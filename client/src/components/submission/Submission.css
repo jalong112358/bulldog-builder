@@ -27,6 +27,11 @@
 	display: flex;
 	justify-content: flex-start;
 }
+.btn-col {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
 
 @media (max-width: 1150px) {
 	#submission-wrapper {
