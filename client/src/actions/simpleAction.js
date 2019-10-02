@@ -12,7 +12,9 @@ import {
 	SET_PRICE,
 	SET_VARIATION_ID,
 	SET_URL_ID,
-	SET_BUILD_DATA
+	SET_BUILD_DATA,
+	SET_CUSTOM_TEXT,
+	CHANGE_IMAGE_NUMBER
 } from "./types";
 
 export const getBuilderData = productName => {
@@ -69,7 +71,10 @@ export const productSubmit = (
 	id,
 	totalPrice,
 	productId,
-	variationId
+	variationId,
+	pathIndex,
+	customText,
+	imageNumber
 ) => dispatch => {
 	dispatch(setLoading());
 	axios
@@ -78,7 +83,10 @@ export const productSubmit = (
 			id: id,
 			totalPrice: totalPrice,
 			productId: productId,
-			variationId: variationId
+			variationId: variationId,
+			pathIndex: pathIndex,
+			customText: customText,
+			imageNumber: imageNumber
 		})
 		.then(res => {
 			dispatch({
@@ -106,6 +114,19 @@ export const setUserInfo = info => {
 	return {
 		type: SET_USER_INFO,
 		payload: info
+	};
+};
+export const changeImageNumber = number => {
+	return {
+		type: CHANGE_IMAGE_NUMBER,
+		payload: number
+	};
+};
+
+export const setCustomText = text => {
+	return {
+		type: SET_CUSTOM_TEXT,
+		payload: text
 	};
 };
 

@@ -1,9 +1,12 @@
 #builder-wrapper {
 	width: 100%;
 	padding: 50px;
+	padding-top: 0;
 	height: auto;
 	min-height: 1000px;
 	overflow: hidden;
+
+	z-index: 9;
 }
 
 #builder-wrapper h1 {
@@ -14,6 +17,8 @@
 
 #builder {
 	display: flex;
+	justify-content: center;
+	align-items: flex-start;
 }
 
 .loader {

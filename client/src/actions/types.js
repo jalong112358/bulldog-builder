@@ -9,3 +9,5 @@ export const SET_USER_INFO = "SET_USER_INFO";
 export const SET_VARIATION_ID = "SET_VARIATION_ID";
 export const SET_URL_ID = "SET_URL_ID";
 export const SET_BUILD_DATA = "SET_BUILD_DATA";
+export const SET_CUSTOM_TEXT = "SET_CUSTOM_TEXT";
+export const CHANGE_IMAGE_NUMBER = "CHANGE_IMAGE_NUMBER";

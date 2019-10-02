@@ -75,6 +75,7 @@ class FormPart extends Component {
 			return (
 				<FormField
 					key={index}
+					title={field.title}
 					stage={field.stage}
 					variationId={variationId}
 					label={field.label}
@@ -95,7 +96,6 @@ class FormPart extends Component {
 
 		if (this.state.formOpen === true) {
 			formClass = "open";
-			formHeight = this.props.fieldData.length * 159 + "px";
 		} else {
 			formClass = "";
 			formHeight = 0;
@@ -106,17 +106,14 @@ class FormPart extends Component {
 				{this.state.selectedField !== undefined &&
 				this.props.fieldData[this.state.selectedField].name ? (
 					<div className="form-part-header selected" onClick={this.formToggle}>
+						{this.props.fieldData[this.state.selectedField].title}:{"  "}
 						{this.props.fieldData[this.state.selectedField].name}
 					</div>
 				) : (
 					<div className="form-part-header">{this.props.label}</div>
 				)}
 
-				<div
-					id="form-part-fields"
-					className={formClass}
-					style={{ height: formHeight }}
-				>
+				<div id="form-part-fields" className={formClass}>
 					{fields}
 				</div>
 			</div>

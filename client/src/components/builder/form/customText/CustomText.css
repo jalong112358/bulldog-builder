@@ -1,0 +1,16 @@
+.custom-text {
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+.custom-text p {
+	margin-bottom: 10px !important;
+}
+.custom-text input {
+	width: 100%;
+	font-family: "StencilGothic", "Saira Stencil One";
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 20px;
+
+	padding: 7px;
+}

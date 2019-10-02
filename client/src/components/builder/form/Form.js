@@ -6,6 +6,7 @@ import {
 } from "../../../actions/simpleAction";
 import FormPart from "./formPart/FormPart";
 import NextBtn from "./nextBtn/NextBtn";
+import CustomText from "./customText/CustomText";
 
 import { connect } from "react-redux";
 import "./Form.css";
@@ -28,6 +29,7 @@ class Form extends Component {
 	render() {
 		const formParts = this.props.selectedPath.map((part, index) => {
 			let name;
+			let title;
 			let stage;
 			let fields;
 			let label;
@@ -36,6 +38,7 @@ class Form extends Component {
 
 			if (part.stage !== 0) {
 				name = part.selectedFieldProps.name;
+				title = part.selectedFieldProps.title;
 				stage = part.selectedFieldProps.stage;
 				fields = part.selectedFieldProps.fieldData;
 				label = part.selectedFieldProps.label;
@@ -43,6 +46,7 @@ class Form extends Component {
 				type = part.selectedFieldProps.type;
 			} else {
 				name = part.name;
+				title = part.title;
 				stage = part.stage;
 				fields = part.fields;
 				label = part.label;
@@ -54,6 +58,7 @@ class Form extends Component {
 				return (
 					<FormPart
 						name={name}
+						title={title}
 						stage={stage}
 						label={label}
 						type={type}
@@ -69,6 +74,7 @@ class Form extends Component {
 				}
 				return (
 					<div>
+						<CustomText />
 						<NextBtn />
 					</div>
 				);
@@ -77,6 +83,8 @@ class Form extends Component {
 
 		return (
 			<div id="form">
+				<h1>{this.state.productName}</h1>
+
 				<h3>{this.state.productName}</h3>
 				<p>&#x24;{this.props.price}</p>
 				{formParts}

@@ -6,6 +6,9 @@ const ProductSchema = new Schema({
 	productName: {
 		type: String
 	},
+	slug: {
+		type: String
+	},
 	totalPrice: {
 		type: Number
 	},
@@ -16,6 +19,15 @@ const ProductSchema = new Schema({
 		type: Number
 	},
 	variationId: {
+		type: Number
+	},
+	pathIndex: {
+		type: Array
+	},
+	customText: {
+		type: String
+	},
+	imageNumber: {
 		type: Number
 	}
 });

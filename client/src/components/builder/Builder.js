@@ -30,8 +30,6 @@ class Builder extends Component {
 		const { selectedPath, loading, success } = this.props;
 		return (
 			<div id="builder-wrapper">
-				<h1>BUILD YOUR OWN</h1>
-
 				<div id="builder">
 					<ImageOutput />
 

@@ -1,42 +1,39 @@
-@font-face {
-	font-family: "Gibson-Italic";
-
-	src: url(./fonts/Gibson-Italic.otf) format("opentype");
-}
-@font-face {
-	font-family: "Gibson-Regular";
-
-	src: url(./fonts/Gibson-Regular.otf) format("opentype");
-}
-
-@font-face {
-	font-family: "Gibson-SemiBold";
-
-	src: url(./fonts/Gibson-SemiBold.otf) format("opentype");
-}
-
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Gibson-Regular";
+	font-family: "Montserrat", Arial, sans-serif;
+}
+@font-face {
+	font-family: "StencilGothic";
+
+	src: url("./fonts/StencilGothic.ttf") format("truetype"),
+		url("./fonts/StencilGothic.woff2") format("woff2"),
+		url("./fonts/StencilGothic.woff") format("woff");
 }
 
 main {
 	display: flex;
 	justify-content: flex-start;
-}
-
-.bold-text {
-	font-family: "Gibson-SemiBold";
-}
-
-.italic-text {
-	font-family: "Gibson-Italic";
+	/* position: relative;
+	z-index: 9; */
+	margin: 0 auto;
 }
 
 .disclaimer {
-	font-family: "Gibson-Italic";
 	color: rgb(136, 136, 136);
 	font-size: 14px;
+	font-style: italic;
+}
+.hose-text {
+	position: absolute;
+	top: 50%;
+	font-family: "StencilGothic", "Saira Stencil One";
+	font-size: 20px;
+	line-height: 20px;
+	margin: 0;
+	padding-left: 15px;
+	text-transform: uppercase;
+	transform: translateY(-10px);
+	color: rgba(0, 0, 0, 0.6);
 }

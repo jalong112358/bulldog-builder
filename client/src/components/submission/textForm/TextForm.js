@@ -47,24 +47,34 @@ class TextForm extends Component {
 						<p style={{ marginBottom: "10px" }} className="bold-text">
 							INQUIRE ABOUT THIS BUILD
 						</p>
-						<label for="name">
+						{/* <label for="name">
 							Your Name:{" "}
 							<span className="error-text">{this.state.errors.name}</span>
-						</label>
-						<input type="text" name="name" onChange={this.handleChange}></input>
+						</label> */}
+						<input
+							type="text"
+							name="name"
+							onChange={this.handleChange}
+							placeholder="Name"
+						></input>
 
-						<label for="email">
+						{/* <label for="email">
 							Your Email:{" "}
 							<span className="error-text">{this.state.errors.email}</span>
-						</label>
+						</label> */}
 						<input
 							type="email"
 							name="email"
 							onChange={this.handleChange}
+							placeholder="Email"
 						></input>
 
-						<label for="message">Additional Information:</label>
-						<textarea name="message" onChange={this.handleChange}></textarea>
+						{/* <label for="message">Additional Information:</label> */}
+						<textarea
+							name="message"
+							onChange={this.handleChange}
+							placeholder="Message"
+						></textarea>
 						{/* <ReCAPTCHA
 							sitekey="Your client site key"
 							onChange={this.onChange}

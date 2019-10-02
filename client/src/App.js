@@ -9,6 +9,7 @@ import Builder from "./components/builder/Builder";
 import Submission from "./components/submission/Submission";
 import Sidebar from "./components/common/Sidebar";
 import Nav from "./components/common/Nav";
+import Header from "./components/common/Header";
 import Footer from "./components/common/Footer";
 
 class App extends Component {
@@ -27,10 +28,10 @@ class App extends Component {
 			<Provider store={store}>
 				<div className="App">
 					<Nav />
-
+					<Header />
 					<BrowserRouter>
 						<main>
-							<Sidebar />
+							{/* <Sidebar /> */}
 
 							<Switch>
 								<Route exact path="/" component={ProductSelection} />

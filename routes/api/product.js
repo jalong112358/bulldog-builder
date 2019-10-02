@@ -14,7 +14,7 @@ const Product = require("../../models/Product");
 const validateInput = require("../../form-validation");
 
 router.get("/:id", (req, res) => {
-	console.log(req.params.id);
+	// console.log(req.params.id);
 	Product.findById(req.params.id)
 
 		.then(product => res.json(product))
@@ -24,9 +24,13 @@ router.get("/:id", (req, res) => {
 router.post("/add", (req, res) => {
 	let specs = [];
 	let productName = req.body.selectedPath[0].productName;
+	let slug = req.body.selectedPath[0].slug;
 	let totalPrice = req.body.totalPrice;
 	let productId = req.body.productId;
 	let variationId = req.body.variationId;
+	let pathIndex = req.body.pathIndex;
+	let customText = req.body.customText;
+	let imageNumber = req.body.imageNumber;
 
 	for (i = 1; i < req.body.selectedPath.length; i++) {
 		let info;
@@ -34,6 +38,7 @@ router.post("/add", (req, res) => {
 			info = req.body.selectedPath[i].selectedFieldProps.info;
 		}
 		specs.push({
+			title: req.body.selectedPath[i].selectedFieldProps.title,
 			name: req.body.selectedPath[i].selectedFieldProps.name,
 			price: req.body.selectedPath[i].selectedFieldProps.price,
 
@@ -43,10 +48,14 @@ router.post("/add", (req, res) => {
 
 	const newProduct = new Product({
 		productName: productName,
+		slug: slug,
 		totalPrice: totalPrice,
 		specs: specs,
 		productId: productId,
-		variationId: variationId
+		variationId: variationId,
+		pathIndex: pathIndex,
+		customText: customText,
+		imageNumber: imageNumber
 	});
 
 	newProduct.save(function(err, product) {
@@ -69,7 +78,7 @@ router.post("/email", (req, res) => {
 			buildData.push("<li>" + req.body.buildData.specs[i].name + "</li>");
 		}
 
-		console.log(buildData);
+		// console.log(buildData);
 
 		//Send email
 		const oauth2Client = new OAuth2(

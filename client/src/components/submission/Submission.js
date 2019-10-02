@@ -30,7 +30,6 @@ class Submission extends Component {
 	render() {
 		return (
 			<div id="submission-wrapper">
-				<h1>BUILD YOUR OWN</h1>
 				<div id="submission">
 					<div>
 						<ProductReview buildData={this.state.buildData} />

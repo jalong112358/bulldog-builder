@@ -35,15 +35,11 @@ class Nav extends Component {
 			<nav>
 				<div className="brand-wrapper">
 					<div className="brand-wrapper-bg">
-						<a
-							href="http://staging.puck.flywheelsites.com/"
-							class="navbar-brand"
-							rel="home"
-						>
+						<a href="https://bulldoghose.com/" class="navbar-brand" rel="home">
 							<img
-								src="https://puck.com/wp-content/uploads/2018/09/puck-logo.png"
+								src={require("./logo.png")}
 								class="img-fluid"
-								alt="Puck - Built to Lead."
+								alt="BullDog Hose Company logo"
 							/>
 						</a>
 					</div>
@@ -59,15 +55,13 @@ class Nav extends Component {
 					<div className="nav-top">
 						<ul>
 							<li>
-								<a href="https://puck.com/about-us/">About Us</a>
+								<a href="https://puck.com/about-us/">CANADIAN CUSTOMERS</a>
 							</li>
 							<li>
-								<a href="https://puck.com/customer-service/">
-									Customer Service
-								</a>
+								<a href="https://puck.com/customer-service/">ABOUT US</a>
 							</li>
 							<li>
-								<a href="https://puck.bamboohr.com/jobs/">Careers</a>
+								<a href="https://puck.bamboohr.com/jobs/">CONTACT US</a>
 							</li>
 							<li>
 								<ul className="social-media-icons">
@@ -118,303 +112,212 @@ class Nav extends Component {
 					<div className="nav-bottom">
 						<ul>
 							<li>
-								<a href="#">
-									DISCOVER PUCK <FontAwesomeIcon icon={faCaretDown} />
-								</a>
-								<ul className="submenu discover">
+								<a href="https://bulldoghose.com/fire-hoses/">FIRE HOSE</a>
+								<ul className="submenu">
 									<li>
-										<a className="bold" href="https://puck.com/discover-puck/">
-											DISCOVER PUCK
+										<a href="https://bulldoghose.com/fire-hoses/attack-fire-hoses/">
+											Attack Fire Hoses
 										</a>
+										<ul className="submenu-two">
+											<li>
+												<a href="https://bulldoghose.com/fire-hoses/attack-fire-hoses/hi-combat-ii/">
+													Hi-Combat II&reg;
+												</a>
+											</li>
+											<li>
+												<a href="https://bulldoghose.com/fire-hoses/attack-fire-hoses/firepower-ii/">
+													Firepower II&reg;
+												</a>
+											</li>
+											<li>
+												<a href="https://bulldoghose.com/fire-hoses/attack-fire-hoses/ultima/">
+													Ultima&reg;
+												</a>
+											</li>
+											<li>
+												<a href="https://bulldoghose.com/fire-hoses/attack-fire-hoses/fireguard/">
+													Fireguard&reg;
+												</a>
+											</li>
+										</ul>
 									</li>
 									<li>
-										<a className="bold" href="https://puck.com/40th/">
-											40TH ANNIVERSARY
+										<a href="https://bulldoghose.com/fire-hoses/fire-supply-hoses/">
+											Supply Line Fire Hoses
 										</a>
+										<ul className="submenu-two">
+											<li>
+												<a href="https://bulldoghose.com/fire-hoses/fire-supply-hoses/hi-vol/">
+													Hi-Vol&reg;
+												</a>
+											</li>
+											<li>
+												<a href="https://bulldoghose.com/fire-hoses/fire-supply-hoses/hi-vol-tpu/">
+													Hi-Vol TPU&trade;
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="https://bulldoghose.com/fire-hoses/general-fire-hoses/">
+											General Fire Hoses
+										</a>
+										<ul className="submenu-two">
+											<li>
+												<a href="https://bulldoghose.com/fire-hoses/general-fire-hoses/red-yellow-chief/">
+													Red / Yellow Chief&reg;
+												</a>
+											</li>
+											<li>
+												<a href="https://bulldoghose.com/fire-hoses/general-fire-hoses/redskin-blueskin/">
+													Redskin / Blueskin&reg;
+												</a>
+											</li>
+											<li>
+												<a href="https://bulldoghose.com/fire-hoses/general-fire-hoses/hi-power/">
+													Hi-Power&trade;
+												</a>
+											</li>
+										</ul>
 									</li>
 								</ul>
 							</li>
 							<li>
-								<a href="#">
-									EQUIPMENT <FontAwesomeIcon icon={faCaretDown} />
+								<a href="https://bulldoghose.com/industrial-hoses/">
+									INDUSTRIAL HOSE
 								</a>
-								<div className="submenu equipment">
-									<div className="submenu-row">
-										<ul>
-											<li>
-												<a
-													className="bold"
-													href="https://puck.com/equipment/agriculture/"
-												>
-													Agriculture
-												</a>
-											</li>
-											<li>
-												<a href="https://puck.com/equipment/agriculture/hose-carts">
-													Hose Carts
-												</a>
-											</li>
-											<li>
-												<a href="https://puck.com/equipment/agriculture/pump-units">
-													Pump Units
-												</a>
-											</li>
-											<li>
-												<a href="https://puck.com/equipment/agriculture/applicators">
-													Applicators
-												</a>
-											</li>
-											<li>
-												<a href="https://puck.com/equipment/agriculture/agitators">
-													Agitators
-												</a>
-											</li>
-											<li>
-												<a href="https://puck.com/equipment/agriculture/hoses-and-accessories">
-													Hoses and Accessories
-												</a>
-											</li>
-											<li>
-												<a href="https://puck.com/control-systems/">
-													Control Systems
-												</a>
-											</li>
-										</ul>
-										<ul>
-											<li>
-												<a
-													className="bold"
-													href="https://puck.com/equipment/oil-and-gas/"
-												>
-													Oil &amp; Gas
-												</a>
-											</li>
-											<li>
-												<a href="https://puck.com/equipment/oil-and-gas/hose-reels">
-													Hose Reels
-												</a>
-											</li>
-											<li>
-												<a href="https://puck.com/equipment/oil-and-gas/pump-units">
-													Pump Units
-												</a>
-											</li>
-											<li>
-												<a href="https://puck.com/equipment/oil-and-gas/water-transfer-hoses">
-													Water Transfer Hoses
-												</a>
-											</li>
-											<li>
-												<a href="https://puck.com/control-systems/">
-													Control Systems
-												</a>
-											</li>
-										</ul>
-										<ul>
-											<li>
-												<a
-													className="bold"
-													href="https://puck.com/equipment/mining/"
-												>
-													Mining
-												</a>
-											</li>
-											<li>
-												<a href="https://puck.com/equipment/mining/hose-reels">
-													Hose Reels
-												</a>
-											</li>
-											<li>
-												<a href="https://puck.com/equipment/mining/pump-units">
-													Pump Units
-												</a>
-											</li>
-											<li>
-												<a href="https://puck.com/equipment/mining/agitators-1">
-													Agitators
-												</a>
-											</li>
-											<li>
-												<a href="https://puck.com/equipment/mining/water-transfer-hoses">
-													Water Transfer Hoses
-												</a>
-											</li>
-											<li>
-												<a href="https://puck.com/control-systems/">
-													Control Systems
-												</a>
-											</li>
-										</ul>
-									</div>
 
-									<div className="submenu-row">
-										<ul>
+								<ul className="submenu">
+									<li>
+										<a href="https://bulldoghose.com/industrial-hoses/military-hoses/">
+											Military Hoses
+										</a>
+										<ul className="submenu-two">
 											<li>
-												<a
-													className="bold"
-													href="https://puck.com/equipment/municipalities/"
-												>
-													Municipalities
+												<a href="https://bulldoghose.com/industrial-hoses/military-hoses/fuel-hose/">
+													Fuel Hose&trade;
 												</a>
 											</li>
 											<li>
-												<a href="https://puck.com/equipment/municipalities/hose-reels">
-													Hose Reels
-												</a>
-											</li>
-											<li>
-												<a href="https://puck.com/equipment/municipalities/pump-units">
-													Pump Units
-												</a>
-											</li>
-											<li>
-												<a href="https://puck.com/equipment/municipalities/agitators-1">
-													Agitators
-												</a>
-											</li>
-											<li>
-												<a href="https://puck.com/equipment/municipalities/water-transfer-hoses">
-													Water Transfer Hoses
-												</a>
-											</li>
-											<li>
-												<a href="https://puck.com/control-systems/">
-													Control Systems
+												<a href="https://bulldoghose.com/industrial-hoses/military-hoses/armoured-chemicoil/">
+													Armoured Chemicoil&trade;
 												</a>
 											</li>
 										</ul>
+									</li>
+									<li>
+										<a href="https://bulldoghose.com/industrial-hoses/oil-and-gas-hoses/">
+											Oil and Gas Hoses
+										</a>
+										<ul className="submenu-two">
+											<li>
+												<a href="https://bulldoghose.com/industrial-hoses/oil-and-gas-hoses/wat-hog/">
+													WAT-Hog&trade;
+												</a>
+											</li>
+											<li>
+												<a href="https://bulldoghose.com/industrial-hoses/oil-and-gas-hoses/armour-guard/">
+													Armour Guard&trade;
+												</a>
+											</li>
 
-										<ul>
 											<li>
-												<a
-													className="bold"
-													href="https://puck.com/equipment/forestry/"
-												>
-													Forestry
+												<a href="https://bulldoghose.com/industrial-hoses/oil-and-gas-hoses/red-yellow-chief/">
+													Red / Yellow Chief&reg;
 												</a>
 											</li>
+
 											<li>
-												<a href="https://puck.com/equipment/forestry/hose-reels">
-													Hose Reels
-												</a>
-											</li>
-											<li>
-												<a href="https://puck.com/equipment/forestry/pump-units">
-													Pump Units
-												</a>
-											</li>
-											<li>
-												<a href="https://puck.com/equipment/forestry/forestry-hoses">
-													Forestry Hoses
-												</a>
-											</li>
-											<li>
-												<a href="https://puck.com/control-systems/">
-													Control Systems
+												<a href="https://bulldoghose.com/industrial-hoses/oil-and-gas-hoses/redskin-blueskin/">
+													Redskin / Blueskin&reg;
 												</a>
 											</li>
 										</ul>
-										<ul>
+									</li>
+									<li>
+										<a href="https://bulldoghose.com/industrial-hoses/general-industrial-hoses/">
+											General Industrial Hoses
+										</a>
+										<ul className="submenu-two">
 											<li>
-												<a
-													className="bold"
-													href="https://puck.com/store/used-equipment/"
-												>
-													Used Equipment
+												<a href="https://bulldoghose.com/industrial-hoses/general-industrial-hoses/fuel-hose/">
+													Fuel Hose&trade;
+												</a>
+											</li>
+											<li>
+												<a href="https://bulldoghose.com/industrial-hoses/general-industrial-hoses/wat-hog/">
+													WAT-Hog&trade;
+												</a>
+											</li>
+
+											<li>
+												<a href="https://bulldoghose.com/industrial-hoses/general-industrial-hoses/redskin-blueskin/">
+													Redskin / Blueskin&reg;
+												</a>
+											</li>
+
+											<li>
+												<a href="https://bulldoghose.com/industrial-hoses/general-industrial-hoses/red-yellow-chief/">
+													Red / Yellow Chief&reg;
+												</a>
+											</li>
+
+											<li>
+												<a href="https://bulldoghose.com/industrial-hoses/general-industrial-hoses/rackhose/">
+													Rackhose&trade;
+												</a>
+											</li>
+
+											<li>
+												<a href="https://bulldoghose.com/industrial-hoses/general-industrial-hoses/single-jacket/">
+													Single Jacket&trade;
+												</a>
+											</li>
+											<li>
+												<a href="https://bulldoghose.com/industrial-hoses/general-industrial-hoses/chiller-hose/">
+													Chiller Hose&trade;
 												</a>
 											</li>
 										</ul>
-									</div>
-								</div>
+									</li>
+								</ul>
 							</li>
 
 							<li>
-								<a href="#">
-									CONTROL SYSTEMS <FontAwesomeIcon icon={faCaretDown} />
+								<a href="https://bulldoghose.com/agricultural-hoses/">
+									AGRICULTURAL HOSE
 								</a>
-								<ul className="submenu control">
+								<ul className="submenu">
 									<li>
-										<a
-											className="bold"
-											href="https://puck.com/control-systems/"
-										>
-											Overview
+										<a href="https://bulldoghose.com/agricultural-hoses/mainline/">
+											Mainline&trade;
 										</a>
 									</li>
 									<li>
-										<a
-											className="bold"
-											href="https://puck.com/control-systems/lightspeed-pro/"
-										>
-											LightSpeed Pro
+										<a href="https://bulldoghose.com/agricultural-hoses/armour-guard/">
+											Armour Guard&reg; LDH
 										</a>
 									</li>
 									<li>
-										<a
-											className="bold"
-											href="https://puck.com/control-systems/lightspeed-iq/"
-										>
-											LightSpeed IQ
+										<a href="https://bulldoghose.com/agricultural-hoses/premium-200/">
+											Premium 200&reg; Irrigation Hose
+										</a>
+									</li>
+									<li>
+										<a href="https://bulldoghose.com/agricultural-hoses/drag-hose/">
+											Drag Hose&trade;
 										</a>
 									</li>
 								</ul>
 							</li>
+
 							<li>
-								<a href="#">HOSE</a>
+								<a href="https://bulldoghose.com/resources/">RESOURCES</a>
 							</li>
 							<li>
-								<a href="https://puck.com/store/">
-									STORE <FontAwesomeIcon icon={faCaretDown} />
+								<a href="https://bulldoghose.com/news-events/">
+									NEWS &amp; EVENTS
 								</a>
-								<ul className="submenu store">
-									<li>
-										<a
-											className="bold"
-											href="https://puck.com/store/parts-store/"
-										>
-											Parts Store
-										</a>
-									</li>
-									<li>
-										<a
-											className="bold"
-											href="https://puck.com/store/used-equipment/"
-										>
-											Used Equipment
-										</a>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a href="https://puck.com/news-events/">
-									NEWS &amp; EVENTS <FontAwesomeIcon icon={faCaretDown} />
-								</a>
-								<ul className="submenu news">
-									<li>
-										<a
-											className="bold"
-											href="https://puck.com/news-events/news/"
-										>
-											News
-										</a>
-									</li>
-									<li>
-										<a
-											className="bold"
-											href="https://puck.com/news-events/events"
-										>
-											Events
-										</a>
-									</li>
-									<li>
-										<a
-											className="bold"
-											href="https://puck.com/news-events/pump-school"
-										>
-											Pump School
-										</a>
-									</li>
-								</ul>
 							</li>
 						</ul>
 					</div>

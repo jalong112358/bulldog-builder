@@ -4,6 +4,12 @@
 
 	margin-right: 50px;
 }
+
+#image-output .image {
+	position: relative;
+}
+.image-main {
+}
 #image-output img {
 	width: 100%;
 	height: auto;

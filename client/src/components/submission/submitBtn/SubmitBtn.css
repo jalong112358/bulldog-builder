@@ -7,48 +7,9 @@
 	color: #fff;
 	text-decoration: none;
 	padding: 5px 25px;
-	border-radius: 7px;
 
-	background: rgba(195, 71, 18, 1);
-	background: -webkit-gradient(
-		left top,
-		right top,
-		color-stop(0%, rgba(195, 71, 18, 1)),
-		color-stop(14%, rgba(194, 70, 19, 1)),
-		color-stop(26%, rgba(194, 69, 19, 1)),
-		color-stop(100%, rgba(243, 142, 0, 1))
-	);
-	background: -webkit-linear-gradient(
-		left,
-		rgba(195, 71, 18, 1) 0%,
-		rgba(194, 70, 19, 1) 14%,
-		rgba(194, 69, 19, 1) 26%,
-		rgba(243, 142, 0, 1) 100%
-	);
-	background: -o-linear-gradient(
-		left,
-		rgba(195, 71, 18, 1) 0%,
-		rgba(194, 70, 19, 1) 14%,
-		rgba(194, 69, 19, 1) 26%,
-		rgba(243, 142, 0, 1) 100%
-	);
-	background: -webkit-gradient(
-		linear,
-		left top,
-		right top,
-		from(rgba(195, 71, 18, 1)),
-		color-stop(14%, rgba(194, 70, 19, 1)),
-		color-stop(26%, rgba(194, 69, 19, 1)),
-		to(rgba(243, 142, 0, 1))
-	);
-	background: linear-gradient(
-		to right,
-		rgba(195, 71, 18, 1) 0%,
-		rgba(194, 70, 19, 1) 14%,
-		rgba(194, 69, 19, 1) 26%,
-		rgba(243, 142, 0, 1) 100%
-	);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c34712', endColorstr='#f38e00', GradientType=1);
+	background: #4c050a;
+
 	border: none;
 	text-align: center;
 	width: 50%;
@@ -59,36 +20,7 @@
 .submit-btn:hover {
 	cursor: pointer;
 	color: #fff !important;
-	background: rgba(194, 69, 19, 1) !important;
-	background: -webkit-gradient(
-		left top,
-		right top,
-		color-stop(0%, rgba(194, 69, 19, 1)),
-		color-stop(100%, rgba(243, 142, 0, 1))
-	) !important;
-	background: -webkit-linear-gradient(
-		left,
-		rgba(194, 69, 19, 1) 0%,
-		rgba(243, 142, 0, 1) 100%
-	) !important;
-	background: -o-linear-gradient(
-		left,
-		rgba(194, 69, 19, 1) 0%,
-		rgba(243, 142, 0, 1) 100%
-	) !important;
-	background: -webkit-gradient(
-		linear,
-		left top,
-		right top,
-		from(rgba(194, 69, 19, 1)),
-		to(rgba(243, 142, 0, 1))
-	) !important;
-	background: linear-gradient(
-		to right,
-		rgba(194, 69, 19, 1) 0%,
-		rgba(243, 142, 0, 1) 100%
-	) !important;
-	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#c24513', endColorstr='#f38e00', GradientType=1) !important;
+	background: #4c050a;
 }
 
 .spinner {
@@ -100,7 +32,7 @@
 .spinner > div {
 	width: 12px;
 	height: 12px;
-	background-color: rgb(212, 92, 41);
+	background: #4c050a;
 
 	border-radius: 100%;
 	display: inline-block;

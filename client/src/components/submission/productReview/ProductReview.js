@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 // import ImageDisplay from "./imageDisplay/ImageDisplay";
-import PuckBannerImg from "./puck-banner.png";
+import Logo from "./logo.png";
 
 import "./ProductReview.css";
 
@@ -17,14 +17,21 @@ class ProductReview extends Component {
 			});
 		}
 	}
+
 	render() {
+		let imageNumber = "";
+		let customText = "";
 		let specs;
 		if (this.state.buildData.length !== 0) {
+			imageNumber = this.state.buildData.imageNumber;
+			customText = this.state.buildData.customText;
 			specs = this.state.buildData.specs.map((part, index) => {
 				let name;
+				let title;
 				let price;
 				let info;
 
+				title = part.title;
 				name = part.name;
 				price = part.price;
 
@@ -39,7 +46,9 @@ class ProductReview extends Component {
 				return (
 					<ul style={{ width: "100%" }}>
 						<li>
-							<span className="bold-text">{name}</span>
+							<span className="bold-text">
+								{title}: {name}
+							</span>
 
 							<span>${price}</span>
 						</li>
@@ -51,18 +60,28 @@ class ProductReview extends Component {
 
 		return (
 			<div id="product-review">
-				<img
-					style={{
-						width: "17%"
-					}}
-					src={PuckBannerImg}
-				/>
-				<div className="image-preview">
-					<img
-						width="100%"
-						src={require(`../../../images/pump-trailer/0000.png`)}
-					/>
+				<div className="logo-wrapper">
+					<img src={Logo} />
 				</div>
+				{this.state.buildData.length !== 0 ? (
+					<img
+						className="img-main"
+						width="100%"
+						src={require(`../../../images/${this.state.buildData.slug}/main.png`)}
+					/>
+				) : null}
+				{imageNumber !== "" && customText !== "" ? (
+					<div className="image-preview">
+						<p className="hose-text">{customText}</p>
+						<img
+							width="100%"
+							src={require(`../../../images/${this.state.buildData.slug}/${this.state.buildData.imageNumber}.png`)}
+						/>
+					</div>
+				) : null}
+				<p className="disclaimer">
+					&#x2a;Image for reference only. Final product may vary.
+				</p>
 				<div className="specs-wrapper">
 					<h1>
 						<span>Custom </span>
@@ -81,9 +100,6 @@ class ProductReview extends Component {
 						</p>
 					</div>
 				</div>
-				<p className="disclaimer">
-					&#x2a;Image for reference only. Final product may vary.
-				</p>
 			</div>
 		);
 	}

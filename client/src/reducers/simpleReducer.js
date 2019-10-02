@@ -9,7 +9,9 @@ import {
 	SET_PRICE,
 	SET_VARIATION_ID,
 	SET_URL_ID,
-	SET_BUILD_DATA
+	SET_BUILD_DATA,
+	SET_CUSTOM_TEXT,
+	CHANGE_IMAGE_NUMBER
 } from "../actions/types";
 
 const initialState = {
@@ -24,7 +26,9 @@ const initialState = {
 	productId: 0,
 	variationId: 0,
 	UrlId: null,
-	buildData: []
+	buildData: [],
+	customText: "BULLDOG HOSE COMPANY",
+	imageNumber: 0
 };
 
 export default function(state = initialState, action) {
@@ -97,6 +101,11 @@ export default function(state = initialState, action) {
 				buildData: action.payload,
 				loading: false
 			};
+		case CHANGE_IMAGE_NUMBER:
+			return {
+				...state,
+				imageNumber: action.payload
+			};
 
 		case SET_LOADING:
 			return {
@@ -117,12 +126,19 @@ export default function(state = initialState, action) {
 				productId: 0,
 				variationId: 0,
 				UrlId: null,
-				buildData: []
+				buildData: [],
+				imageNumber: 0
 			};
 		case SET_USER_INFO:
 			return {
 				...state,
 				userInfo: action.payload
+			};
+
+		case SET_CUSTOM_TEXT:
+			return {
+				...state,
+				customText: action.payload
 			};
 
 		default:

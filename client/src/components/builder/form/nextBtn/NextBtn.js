@@ -15,7 +15,10 @@ class NextBtn extends Component {
 			id,
 			this.props.price,
 			this.props.productId,
-			this.props.variationId
+			this.props.variationId,
+			this.props.pathIndex,
+			this.props.customText,
+			this.props.imageNumber
 		);
 	};
 	render() {
@@ -36,7 +39,10 @@ const mapStateToProps = state => {
 		price: state.main.price,
 		UrlId: state.main.UrlId,
 		productId: state.main.productId,
-		variationId: state.main.variationId
+		variationId: state.main.variationId,
+		pathIndex: state.main.pathIndex,
+		customText: state.main.customText,
+		imageNumber: state.main.imageNumber
 	};
 };
 
