@@ -7,6 +7,10 @@
 	padding-top: 0;
 }
 
+#product-review .disclaimer {
+	margin-left: 50px;
+}
+
 .logo-wrapper {
 	width: 100%;
 	background: black;
@@ -39,6 +43,7 @@
 	color: #4c050a;
 	margin-right: 50px;
 	text-align: right;
+	width: 100%;
 }
 .specs {
 	width: 100%;
