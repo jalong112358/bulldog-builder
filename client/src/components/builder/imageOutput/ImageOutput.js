@@ -42,9 +42,10 @@ class ImageOutput extends Component {
 				{this.state.slug !== "" ? (
 					<img
 						className="image-main"
-						src={require(`../../../images/${this.state.slug}/main.png`)}
+						src={require(`../../../images/${this.state.slug}/hose.png`)}
 					/>
 				) : null}
+
 				<div className="image">
 					<p className="hose-text">{this.props.customText}</p>
 
@@ -54,6 +55,7 @@ class ImageOutput extends Component {
 						/>
 					) : null}
 				</div>
+
 				<p className="disclaimer">
 					&#x2a;Image for reference only. Final product may vary.
 				</p>

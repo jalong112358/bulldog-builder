@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import "./AddToCart.css";
 class AddToCart extends Component {
 	handleClick = () => {
-		window.location.href = `http://staging.puck.flywheelsites.com/cart/?add-to-cart=${this.props.productId}&variation_id=${this.props.variationId}`;
+		window.location.href = `http://staging.bulldoghose.flywheelsites.com/cart/?add-to-cart=${this.props.productId}&variation_id=${this.props.variationId}`;
 	};
 	render() {
 		return (

@@ -37,3 +37,7 @@ main {
 	transform: translateY(-10px);
 	color: rgba(0, 0, 0, 0.6);
 }
+
+p {
+	font-size: 14px;
+}

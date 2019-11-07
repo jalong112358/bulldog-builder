@@ -152,11 +152,12 @@ a {
 	font-size: 12.32px;
 	color: white;
 	text-decoration: none;
-	letter-spacing: 1.5px;
+	letter-spacing: 0.5px;
 }
 
 .nav-top > ul > li > a {
 	font-size: 11.2px;
+	font-weight: 400;
 }
 
 .submenu-two {
@@ -190,6 +191,11 @@ a {
 	display: block;
 }
 
+.social-media-icons li {
+	display: inline-block;
+	padding: 0 4px !important;
+}
+
 @media (min-width: 1280px) {
 	.nav-bottom > ul > li > a {
 		font-size: 15.12px;
@@ -200,7 +206,7 @@ a {
 }
 
 .social-media-icons li a {
-	font-size: 16px;
+	font-size: 14.5px;
 }
 .hamburger-icon-wrapper {
 	display: none;

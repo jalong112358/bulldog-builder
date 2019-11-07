@@ -65,3 +65,14 @@
 		font-size: 32px;
 	}
 }
+
+@media print {
+	/* All your print styles go here */
+	.header,
+	#footer-wrapper,
+	#submission-form,
+	.img-main,
+	nav {
+		display: none !important;
+	}
+}

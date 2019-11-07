@@ -1,6 +1,6 @@
 {
 	"productName": "Firepower II",
-	"productId": 5549,
+	"productId": 2072,
 	"slug": "firepower-II",
 	"mainImage": "main-firepower-ii.png",
 	"label": "Choose Your Diameter",
@@ -39,7 +39,7 @@
 								{
 									"title": "Coupling",
 									"name": "ABC Coupling",
-									"variationId": 5608,
+									"variationId": 2073,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,

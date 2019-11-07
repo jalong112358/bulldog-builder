@@ -67,7 +67,7 @@ class ProductReview extends Component {
 					<img
 						className="img-main"
 						width="100%"
-						src={require(`../../../images/${this.state.buildData.slug}/main.png`)}
+						src={require(`../../../images/${this.state.buildData.slug}/hose.png`)}
 					/>
 				) : null}
 				{imageNumber !== "" && customText !== "" ? (

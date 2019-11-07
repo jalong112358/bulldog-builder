@@ -2,11 +2,11 @@ import React, { Component } from "react";
 import "./Nav.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	faFacebookSquare,
+	faFacebookF,
 	faInstagram,
-	faTwitterSquare,
-	faPinterestSquare,
-	faYoutubeSquare
+	faTwitter,
+	faPinterest,
+	faYoutube
 } from "@fortawesome/free-brands-svg-icons";
 import {
 	faBars,
@@ -69,7 +69,23 @@ class Nav extends Component {
 										<a target="_blank" href="http://bit.ly/2HPEjOl">
 											<FontAwesomeIcon
 												className="social-icon"
-												icon={faFacebookSquare}
+												icon={faFacebookF}
+											/>
+										</a>
+									</li>
+									<li>
+										<a target="_blank" href="http://bit.ly/2CjFdQ2">
+											<FontAwesomeIcon
+												className="social-icon"
+												icon={faTwitter}
+											/>
+										</a>
+									</li>
+									<li>
+										<a target="_blank" href="http://bit.ly/2IXgEzW">
+											<FontAwesomeIcon
+												className="social-icon"
+												icon={faYoutube}
 											/>
 										</a>
 									</li>
@@ -81,27 +97,12 @@ class Nav extends Component {
 											/>
 										</a>
 									</li>
-									<li>
-										<a target="_blank" href="http://bit.ly/2CjFdQ2">
-											<FontAwesomeIcon
-												className="social-icon"
-												icon={faTwitterSquare}
-											/>
-										</a>
-									</li>
+
 									<li>
 										<a target="_blank" href="http://bit.ly/2NUFJe1">
 											<FontAwesomeIcon
 												className="social-icon"
-												icon={faPinterestSquare}
-											/>
-										</a>
-									</li>
-									<li>
-										<a target="_blank" href="http://bit.ly/2IXgEzW">
-											<FontAwesomeIcon
-												className="social-icon"
-												icon={faYoutubeSquare}
+												icon={faPinterest}
 											/>
 										</a>
 									</li>
