@@ -40,7 +40,7 @@ class ProductSelection extends Component {
 					<div className="product">
 						<img src={hoseImg} />
 						<div className="product-info">
-							<h3>Firepower II</h3>
+							<h3>Armoured Chemicoil</h3>
 							<p>
 								Quis autem vel eum iure reprehenderit qui in ea voluptate velit
 								esse quam nihil molestiae consequatur, vel illum qui dolorem eum
@@ -58,7 +58,7 @@ class ProductSelection extends Component {
 					<div className="product">
 						<img src={hoseImg} />
 						<div className="product-info">
-							<h3>Firepower II</h3>
+							<h3>Armoured Guard LDH</h3>
 							<p>
 								Quis autem vel eum iure reprehenderit qui in ea voluptate velit
 								esse quam nihil molestiae consequatur, vel illum qui dolorem eum
@@ -76,7 +76,7 @@ class ProductSelection extends Component {
 					<div className="product">
 						<img src={hoseImg} />
 						<div className="product-info">
-							<h3>Firepower II</h3>
+							<h3>Armoured Guard</h3>
 							<p>
 								Quis autem vel eum iure reprehenderit qui in ea voluptate velit
 								esse quam nihil molestiae consequatur, vel illum qui dolorem eum
@@ -94,7 +94,7 @@ class ProductSelection extends Component {
 					<div className="product">
 						<img src={hoseImg} />
 						<div className="product-info">
-							<h3>Firepower II</h3>
+							<h3>Bushmaster</h3>
 							<p>
 								Quis autem vel eum iure reprehenderit qui in ea voluptate velit
 								esse quam nihil molestiae consequatur, vel illum qui dolorem eum
@@ -112,7 +112,7 @@ class ProductSelection extends Component {
 					<div className="product">
 						<img src={hoseImg} />
 						<div className="product-info">
-							<h3>Firepower II</h3>
+							<h3>Chiller Hose</h3>
 							<p>
 								Quis autem vel eum iure reprehenderit qui in ea voluptate velit
 								esse quam nihil molestiae consequatur, vel illum qui dolorem eum
@@ -130,7 +130,7 @@ class ProductSelection extends Component {
 					<div className="product">
 						<img src={hoseImg} />
 						<div className="product-info">
-							<h3>Firepower II</h3>
+							<h3>Drag Hose</h3>
 							<p>
 								Quis autem vel eum iure reprehenderit qui in ea voluptate velit
 								esse quam nihil molestiae consequatur, vel illum qui dolorem eum
@@ -148,7 +148,7 @@ class ProductSelection extends Component {
 					<div className="product">
 						<img src={hoseImg} />
 						<div className="product-info">
-							<h3>Firepower II</h3>
+							<h3>Drag Hose</h3>
 							<p>
 								Quis autem vel eum iure reprehenderit qui in ea voluptate velit
 								esse quam nihil molestiae consequatur, vel illum qui dolorem eum
