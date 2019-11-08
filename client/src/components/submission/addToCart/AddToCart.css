@@ -1,6 +1,7 @@
 .addCart-wrapper {
 	display: flex;
 	align-items: center;
+	font-family: "Montserrat", Arial, sans-serif;
 }
 .addCart-wrapper {
 	display: inline-block;
