@@ -1,7 +1,7 @@
 {
-	"productName": "Firepower II",
-	"productId": 5549,
-	"slug": "firepower-II",
+	"productName": "Ultima",
+	"productId": 2267,
+	"slug": "ultima",
 	"mainImage": "main-firepower-ii.png",
 	"label": "Choose Your Diameter",
 	"name": "Diameter",
@@ -10,7 +10,350 @@
 	"fields": [
 		{
 			"title": "Diameter",
-			"name": "1 3/4 in.",
+			"name": "1 1/2 in",
+			"label": "Choose Your Length",
+			"stage": 1,
+			"price": 100,
+			"image": "1.5-diameter.png",
+			"selected": false,
+			"fields": [
+				{
+					"title": "Length",
+					"name": "50 ft",
+					"label": "Choose Your Color",
+					"stage": 2,
+					"price": 100,
+
+					"image": "50-length.png",
+					"selected": false,
+					"fields": [
+						{
+							"title": "Color",
+							"name": "White",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "white.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2268,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Blue",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "blue.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2270,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Green",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "green.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2272,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Orange",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "orange.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2274,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Red",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "red.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2276,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Tan",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "tan.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2278,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Yellow",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "yellow.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2280,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"title": "Length",
+					"name": "100 ft",
+					"label": "Choose Your Color",
+					"stage": 2,
+					"price": 100,
+
+					"image": "100-length.png",
+					"selected": false,
+					"fields": [
+						{
+							"title": "Color",
+							"name": "White",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "white.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2282,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Blue",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "blue.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2284,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Green",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "green.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2286,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Orange",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "orange.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2288,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Red",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "red.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2290,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Tan",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "tan.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2292,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Yellow",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "yellow.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2294,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Diameter",
+			"name": "1 3/4 in",
 			"label": "Choose Your Length",
 			"stage": 1,
 			"price": 100,
@@ -29,171 +372,17 @@
 					"fields": [
 						{
 							"title": "Color",
-							"name": "Red",
+							"name": "White",
 							"label": "Choose Your Coupling",
 							"stage": 3,
 							"price": 100,
-							"image": "red.jpg",
+							"image": "white.jpg",
 							"selected": false,
 							"fields": [
 								{
 									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Orange",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "orange.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Yellow",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "yellow.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Green",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "green.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2296,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -214,30 +403,118 @@
 							"fields": [
 								{
 									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2298,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
 									"image": "coupling.png",
 									"selected": false,
 									"fields": []
-								},
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Green",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "green.jpg",
+							"selected": false,
+							"fields": [
 								{
 									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2300,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
 									"image": "coupling.png",
 									"selected": false,
 									"fields": []
-								},
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Orange",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "orange.jpg",
+							"selected": false,
+							"fields": [
 								{
 									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2302,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Red",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "red.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2304,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Tan",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "tan.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2306,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Yellow",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "yellow.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2308,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -261,171 +538,17 @@
 					"fields": [
 						{
 							"title": "Color",
-							"name": "Red",
+							"name": "White",
 							"label": "Choose Your Coupling",
 							"stage": 3,
 							"price": 100,
-							"image": "red.jpg",
+							"image": "white.jpg",
 							"selected": false,
 							"fields": [
 								{
 									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Orange",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "orange.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Yellow",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "yellow.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Green",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "green.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2310,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -446,174 +569,8 @@
 							"fields": [
 								{
 									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						}
-					]
-				},
-				{
-					"title": "Length",
-					"name": "200 ft",
-					"label": "Choose Your Color",
-					"stage": 2,
-					"price": 100,
-
-					"image": "200-length.png",
-					"selected": false,
-					"fields": [
-						{
-							"title": "Color",
-							"name": "Red",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "red.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Orange",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "orange.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Yellow",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "yellow.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2312,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -634,30 +591,8 @@
 							"fields": [
 								{
 									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2314,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -669,39 +604,83 @@
 						},
 						{
 							"title": "Color",
-							"name": "Blue",
+							"name": "Orange",
 							"label": "Choose Your Coupling",
 							"stage": 3,
 							"price": 100,
-							"image": "blue.jpg",
+							"image": "orange.jpg",
 							"selected": false,
 							"fields": [
 								{
 									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2316,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
 									"image": "coupling.png",
 									"selected": false,
 									"fields": []
-								},
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Red",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "red.jpg",
+							"selected": false,
+							"fields": [
 								{
 									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2318,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
 									"image": "coupling.png",
 									"selected": false,
 									"fields": []
-								},
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Tan",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "tan.jpg",
+							"selected": false,
+							"fields": [
 								{
 									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2320,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Yellow",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "yellow.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2322,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -717,7 +696,7 @@
 		},
 		{
 			"title": "Diameter",
-			"name": "2 in.",
+			"name": "2 in",
 			"label": "Choose Your Length",
 			"stage": 1,
 			"price": 100,
@@ -736,17 +715,17 @@
 					"fields": [
 						{
 							"title": "Color",
-							"name": "Red",
+							"name": "White",
 							"label": "Choose Your Coupling",
 							"stage": 3,
 							"price": 100,
-							"image": "red.jpg",
+							"image": "white.jpg",
 							"selected": false,
 							"fields": [
 								{
 									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2324,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -756,151 +735,8 @@
 								},
 								{
 									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Orange",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "orange.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Yellow",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "yellow.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Green",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "green.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2338,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -921,8 +757,8 @@
 							"fields": [
 								{
 									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2326,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -932,8 +768,30 @@
 								},
 								{
 									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2340,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Green",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "green.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2328,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -943,8 +801,140 @@
 								},
 								{
 									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2342,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Orange",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "orange.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2330,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								},
+								{
+									"title": "Coupling",
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2344,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Red",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "red.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2332,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								},
+								{
+									"title": "Coupling",
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2346,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Tan",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "tan.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2334,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								},
+								{
+									"title": "Coupling",
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2348,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Yellow",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "yellow.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2336,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								},
+								{
+									"title": "Coupling",
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2350,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -968,17 +958,17 @@
 					"fields": [
 						{
 							"title": "Color",
-							"name": "Red",
+							"name": "White",
 							"label": "Choose Your Coupling",
 							"stage": 3,
 							"price": 100,
-							"image": "red.jpg",
+							"image": "white.jpg",
 							"selected": false,
 							"fields": [
 								{
 									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2352,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -988,151 +978,8 @@
 								},
 								{
 									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Orange",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "orange.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Yellow",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "yellow.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Green",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "green.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2366,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -1153,8 +1000,8 @@
 							"fields": [
 								{
 									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2354,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -1164,163 +1011,8 @@
 								},
 								{
 									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						}
-					]
-				},
-				{
-					"title": "Length",
-					"name": "200 ft",
-					"label": "Choose Your Color",
-					"stage": 2,
-					"price": 100,
-
-					"image": "200-length.png",
-					"selected": false,
-					"fields": [
-						{
-							"title": "Color",
-							"name": "Red",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "red.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Orange",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "orange.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Yellow",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "yellow.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2368,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -1341,8 +1033,8 @@
 							"fields": [
 								{
 									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2356,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -1352,19 +1044,8 @@
 								},
 								{
 									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2370,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -1376,17 +1057,17 @@
 						},
 						{
 							"title": "Color",
-							"name": "Blue",
+							"name": "Orange",
 							"label": "Choose Your Coupling",
 							"stage": 3,
 							"price": 100,
-							"image": "blue.jpg",
+							"image": "orange.jpg",
 							"selected": false,
 							"fields": [
 								{
 									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2358,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -1396,8 +1077,30 @@
 								},
 								{
 									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2372,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Red",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "red.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2360,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -1407,8 +1110,74 @@
 								},
 								{
 									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2374,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Tan",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "tan.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2362,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								},
+								{
+									"title": "Coupling",
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2376,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Yellow",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "yellow.jpg",
+							"selected": false,
+							"fields": [
+								{
+									"title": "Coupling",
+									"name": "Aluminum 1.5 inch NH Rocker Lug",
+									"variationId": 2364,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								},
+								{
+									"title": "Coupling",
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2378,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -1424,7 +1193,7 @@
 		},
 		{
 			"title": "Diameter",
-			"name": "2 1/2 in.",
+			"name": "2.5 in",
 			"label": "Choose Your Length",
 			"stage": 1,
 			"price": 100,
@@ -1443,171 +1212,18 @@
 					"fields": [
 						{
 							"title": "Color",
-							"name": "Red",
+							"name": "White",
 							"label": "Choose Your Coupling",
 							"stage": 3,
 							"price": 100,
-							"image": "red.jpg",
+							"image": "white.jpg",
 							"selected": false,
 							"fields": [
+								
 								{
 									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Orange",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "orange.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Yellow",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "yellow.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Green",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "green.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2380,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -1626,32 +1242,126 @@
 							"image": "blue.jpg",
 							"selected": false,
 							"fields": [
+							
 								{
 									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2382,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
 									"image": "coupling.png",
 									"selected": false,
 									"fields": []
-								},
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Green",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "green.jpg",
+							"selected": false,
+							"fields": [
+								
 								{
 									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2384,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
 									"image": "coupling.png",
 									"selected": false,
 									"fields": []
-								},
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Orange",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "orange.jpg",
+							"selected": false,
+							"fields": [
+								
 								{
 									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2386,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Red",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "red.jpg",
+							"selected": false,
+							"fields": [
+								
+								{
+									"title": "Coupling",
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2388,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Tan",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "tan.jpg",
+							"selected": false,
+							"fields": [
+								
+								{
+									"title": "Coupling",
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2390,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Yellow",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "yellow.jpg",
+							"selected": false,
+							"fields": [
+								
+								{
+									"title": "Coupling",
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2392,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -1675,171 +1385,18 @@
 					"fields": [
 						{
 							"title": "Color",
-							"name": "Red",
+							"name": "White",
 							"label": "Choose Your Coupling",
 							"stage": 3,
 							"price": 100,
-							"image": "red.jpg",
+							"image": "white.jpg",
 							"selected": false,
 							"fields": [
+								
 								{
 									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Orange",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "orange.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Yellow",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "yellow.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Green",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "green.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2394,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -1858,32 +1415,310 @@
 							"image": "blue.jpg",
 							"selected": false,
 							"fields": [
+								
 								{
 									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2396,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
 									"image": "coupling.png",
 									"selected": false,
 									"fields": []
-								},
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Green",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "green.jpg",
+							"selected": false,
+							"fields": [
+								
 								{
 									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2398,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
 									"image": "coupling.png",
 									"selected": false,
 									"fields": []
-								},
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Orange",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "orange.jpg",
+							"selected": false,
+							"fields": [
+								
 								{
 									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2400,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Red",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "red.jpg",
+							"selected": false,
+							"fields": [
+								
+								{
+									"title": "Coupling",
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2402,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Tan",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "tan.jpg",
+							"selected": false,
+							"fields": [
+								
+								{
+									"title": "Coupling",
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2404,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Yellow",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "yellow.jpg",
+							"selected": false,
+							"fields": [
+								
+								{
+									"title": "Coupling",
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2406,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Diameter",
+			"name": "3 in",
+			"label": "Choose Your Length",
+			"stage": 1,
+			"price": 100,
+			"image": "3-diameter.png",
+			"selected": false,
+			"fields": [
+				{
+					"title": "Length",
+					"name": "50 ft",
+					"label": "Choose Your Color",
+					"stage": 2,
+					"price": 100,
+
+					"image": "50-length.png",
+					"selected": false,
+					"fields": [
+						{
+							"title": "Color",
+							"name": "White",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "white.jpg",
+							"selected": false,
+							"fields": [
+								
+								{
+									"title": "Coupling",
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2408,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Blue",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "blue.jpg",
+							"selected": false,
+							"fields": [
+							
+								{
+									"title": "Coupling",
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2410,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Green",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "green.jpg",
+							"selected": false,
+							"fields": [
+								
+								{
+									"title": "Coupling",
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2412,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Orange",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "orange.jpg",
+							"selected": false,
+							"fields": [
+								
+								{
+									"title": "Coupling",
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2414,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Red",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "red.jpg",
+							"selected": false,
+							"fields": [
+								
+								{
+									"title": "Coupling",
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2416,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Tan",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "tan.jpg",
+							"selected": false,
+							"fields": [
+								
+								{
+									"title": "Coupling",
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2418,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Yellow",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "yellow.jpg",
+							"selected": false,
+							"fields": [
+								
+								{
+									"title": "Coupling",
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2420,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -1897,181 +1732,28 @@
 				},
 				{
 					"title": "Length",
-					"name": "200 ft",
+					"name": "100 ft",
 					"label": "Choose Your Color",
 					"stage": 2,
 					"price": 100,
 
-					"image": "200-length.png",
+					"image": "100-length.png",
 					"selected": false,
 					"fields": [
 						{
 							"title": "Color",
-							"name": "Red",
+							"name": "White",
 							"label": "Choose Your Coupling",
 							"stage": 3,
 							"price": 100,
-							"image": "red.jpg",
+							"image": "white.jpg",
 							"selected": false,
 							"fields": [
+								
 								{
 									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Orange",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "orange.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Yellow",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "yellow.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Green",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "green.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2422,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
@@ -2090,32 +1772,126 @@
 							"image": "blue.jpg",
 							"selected": false,
 							"fields": [
+								
 								{
 									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2424,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
 									"image": "coupling.png",
 									"selected": false,
 									"fields": []
-								},
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Green",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "green.jpg",
+							"selected": false,
+							"fields": [
+								
 								{
 									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2426,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
 									"image": "coupling.png",
 									"selected": false,
 									"fields": []
-								},
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Orange",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "orange.jpg",
+							"selected": false,
+							"fields": [
+								
 								{
 									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2428,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Red",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "red.jpg",
+							"selected": false,
+							"fields": [
+								
+								{
+									"title": "Coupling",
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2430,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Tan",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "tan.jpg",
+							"selected": false,
+							"fields": [
+								
+								{
+									"title": "Coupling",
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2432,
+									"label": "Custom Stencil Text (Optional)",
+									"stage": 4,
+									"price": 100,
+									"image": "coupling.png",
+									"selected": false,
+									"fields": []
+								}
+							]
+						},
+						{
+							"title": "Color",
+							"name": "Yellow",
+							"label": "Choose Your Coupling",
+							"stage": 3,
+							"price": 100,
+							"image": "yellow.jpg",
+							"selected": false,
+							"fields": [
+								
+								{
+									"title": "Coupling",
+									"name": "Aluminum 2.5 inch NH Rocker Lug",
+									"variationId": 2434,
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,

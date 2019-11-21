@@ -1,2133 +1,370 @@
 {
-	"productName": "Firepower II",
-	"productId": 5549,
-	"slug": "firepower-II",
-	"mainImage": "main-firepower-ii.png",
-	"label": "Choose Your Diameter",
-	"name": "Diameter",
-	"stage": 0,
-	"price": 100,
-	"fields": [
-		{
-			"title": "Diameter",
-			"name": "1 3/4 in.",
-			"label": "Choose Your Length",
-			"stage": 1,
-			"price": 100,
-			"image": "1.75-diameter.png",
-			"selected": false,
-			"fields": [
-				{
-					"title": "Length",
-					"name": "50 ft",
-					"label": "Choose Your Color",
-					"stage": 2,
-					"price": 100,
+  "productName": "Hi-Vol",
+  "productId": 2194,
+  "slug": "hi-vol",
+  "mainImage": "main-firepower-ii.png",
+  "label": "Choose Your Diameter",
+  "name": "Diameter",
+  "stage": 0,
+  "price": 100,
+  "fields": [
+    {
+      "title": "Diameter",
+      "name": "4 in",
+      "label": "Choose Your Length",
+      "stage": 1,
+      "price": 100,
+      "image": "4-diameter.png",
+      "selected": false,
+      "fields": [
+        {
+          "title": "Length",
+          "name": "25 ft",
+          "label": "Choose Your Color",
+          "stage": 2,
+          "price": 100,
 
-					"image": "50-length.png",
-					"selected": false,
-					"fields": [
-						{
-							"title": "Color",
-							"name": "Red",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "red.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Orange",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "orange.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Yellow",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "yellow.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Green",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "green.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Blue",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "blue.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						}
-					]
-				},
-				{
-					"title": "Length",
-					"name": "100 ft",
-					"label": "Choose Your Color",
-					"stage": 2,
-					"price": 100,
+          "image": "25-length.png",
+          "selected": false,
+          "fields": [
+            {
+              "title": "Color",
+              "name": "Red",
+              "label": "Choose Your Coupling",
+              "stage": 3,
+              "price": 100,
+              "image": "red.jpg",
+              "selected": false,
+              "fields": [
+                {
+                  "title": "Coupling",
+                  "name": "Aluminum 4 inch STORZ",
+                  "variationId": 2195,
+                  "label": "Custom Stencil Text (Optional)",
+                  "stage": 4,
+                  "price": 100,
+                  "image": "coupling.png",
+                  "selected": false,
+                  "fields": []
+                }
+              ]
+            },
+            {
+              "title": "Color",
+              "name": "Yellow",
+              "label": "Choose Your Coupling",
+              "stage": 3,
+              "price": 100,
+              "image": "yellow.jpg",
+              "selected": false,
+              "fields": [
+                {
+                  "title": "Coupling",
+                  "name": "Aluminum 4 inch STORZ",
+                  "variationId": 2197,
+                  "label": "Custom Stencil Text (Optional)",
+                  "stage": 4,
+                  "price": 100,
+                  "image": "coupling.png",
+                  "selected": false,
+                  "fields": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Length",
+          "name": "50 ft",
+          "label": "Choose Your Color",
+          "stage": 2,
+          "price": 100,
 
-					"image": "100-length.png",
-					"selected": false,
-					"fields": [
-						{
-							"title": "Color",
-							"name": "Red",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "red.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Orange",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "orange.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Yellow",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "yellow.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Green",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "green.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Blue",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "blue.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						}
-					]
-				},
-				{
-					"title": "Length",
-					"name": "200 ft",
-					"label": "Choose Your Color",
-					"stage": 2,
-					"price": 100,
+          "image": "50-length.png",
+          "selected": false,
+          "fields": [
+            {
+              "title": "Color",
+              "name": "Red",
+              "label": "Choose Your Coupling",
+              "stage": 3,
+              "price": 100,
+              "image": "red.jpg",
+              "selected": false,
+              "fields": [
+                {
+                  "title": "Coupling",
+                  "name": "Aluminum 4 inch STORZ",
+                  "variationId": 2199,
+                  "label": "Custom Stencil Text (Optional)",
+                  "stage": 4,
+                  "price": 100,
+                  "image": "coupling.png",
+                  "selected": false,
+                  "fields": []
+                }
+              ]
+            },
+            {
+              "title": "Color",
+              "name": "Yellow",
+              "label": "Choose Your Coupling",
+              "stage": 3,
+              "price": 100,
+              "image": "yellow.jpg",
+              "selected": false,
+              "fields": [
+                {
+                  "title": "Coupling",
+                  "name": "Aluminum 4 inch STORZ",
+                  "variationId": 2201,
+                  "label": "Custom Stencil Text (Optional)",
+                  "stage": 4,
+                  "price": 100,
+                  "image": "coupling.png",
+                  "selected": false,
+                  "fields": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Length",
+          "name": "100 ft",
+          "label": "Choose Your Color",
+          "stage": 2,
+          "price": 100,
 
-					"image": "200-length.png",
-					"selected": false,
-					"fields": [
-						{
-							"title": "Color",
-							"name": "Red",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "red.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Orange",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "orange.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Yellow",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "yellow.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Green",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "green.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Blue",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "blue.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"title": "Diameter",
-			"name": "2 in.",
-			"label": "Choose Your Length",
-			"stage": 1,
-			"price": 100,
-			"image": "2-diameter.png",
-			"selected": false,
-			"fields": [
-				{
-					"title": "Length",
-					"name": "50 ft",
-					"label": "Choose Your Color",
-					"stage": 2,
-					"price": 100,
+          "image": "100-length.png",
+          "selected": false,
+          "fields": [
+            {
+              "title": "Color",
+              "name": "Red",
+              "label": "Choose Your Coupling",
+              "stage": 3,
+              "price": 100,
+              "image": "red.jpg",
+              "selected": false,
+              "fields": [
+                {
+                  "title": "Coupling",
+                  "name": "Aluminum 4 inch STORZ",
+                  "variationId": 2203,
+                  "label": "Custom Stencil Text (Optional)",
+                  "stage": 4,
+                  "price": 100,
+                  "image": "coupling.png",
+                  "selected": false,
+                  "fields": []
+                }
+              ]
+            },
+            {
+              "title": "Color",
+              "name": "Yellow",
+              "label": "Choose Your Coupling",
+              "stage": 3,
+              "price": 100,
+              "image": "yellow.jpg",
+              "selected": false,
+              "fields": [
+                {
+                  "title": "Coupling",
+                  "name": "Aluminum 4 inch STORZ",
+                  "variationId": 2205,
+                  "label": "Custom Stencil Text (Optional)",
+                  "stage": 4,
+                  "price": 100,
+                  "image": "coupling.png",
+                  "selected": false,
+                  "fields": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Diameter",
+      "name": "5 in",
+      "label": "Choose Your Length",
+      "stage": 1,
+      "price": 100,
+      "image": "5-diameter.png",
+      "selected": false,
+      "fields": [
+        {
+          "title": "Length",
+          "name": "25 ft",
+          "label": "Choose Your Color",
+          "stage": 2,
+          "price": 100,
 
-					"image": "50-length.png",
-					"selected": false,
-					"fields": [
-						{
-							"title": "Color",
-							"name": "Red",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "red.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Orange",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "orange.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Yellow",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "yellow.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Green",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "green.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Blue",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "blue.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						}
-					]
-				},
-				{
-					"title": "Length",
-					"name": "100 ft",
-					"label": "Choose Your Color",
-					"stage": 2,
-					"price": 100,
+          "image": "25-length.png",
+          "selected": false,
+          "fields": [
+            {
+              "title": "Color",
+              "name": "Red",
+              "label": "Choose Your Coupling",
+              "stage": 3,
+              "price": 100,
+              "image": "red.jpg",
+              "selected": false,
+              "fields": [
+                {
+                  "title": "Coupling",
+                  "name": "Aluminum 4 inch STORZ",
+                  "variationId": 2207,
+                  "label": "Custom Stencil Text (Optional)",
+                  "stage": 4,
+                  "price": 100,
+                  "image": "coupling.png",
+                  "selected": false,
+                  "fields": []
+                }
+              ]
+            },
+            {
+              "title": "Color",
+              "name": "Yellow",
+              "label": "Choose Your Coupling",
+              "stage": 3,
+              "price": 100,
+              "image": "yellow.jpg",
+              "selected": false,
+              "fields": [
+                {
+                  "title": "Coupling",
+                  "name": "Aluminum 4 inch STORZ",
+                  "variationId": 2218,
+                  "label": "Custom Stencil Text (Optional)",
+                  "stage": 4,
+                  "price": 100,
+                  "image": "coupling.png",
+                  "selected": false,
+                  "fields": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Length",
+          "name": "50 ft",
+          "label": "Choose Your Color",
+          "stage": 2,
+          "price": 100,
 
-					"image": "100-length.png",
-					"selected": false,
-					"fields": [
-						{
-							"title": "Color",
-							"name": "Red",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "red.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Orange",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "orange.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Yellow",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "yellow.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Green",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "green.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Blue",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "blue.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						}
-					]
-				},
-				{
-					"title": "Length",
-					"name": "200 ft",
-					"label": "Choose Your Color",
-					"stage": 2,
-					"price": 100,
+          "image": "50-length.png",
+          "selected": false,
+          "fields": [
+            {
+              "title": "Color",
+              "name": "Red",
+              "label": "Choose Your Coupling",
+              "stage": 3,
+              "price": 100,
+              "image": "red.jpg",
+              "selected": false,
+              "fields": [
+                {
+                  "title": "Coupling",
+                  "name": "Aluminum 4 inch STORZ",
+                  "variationId": 2210,
+                  "label": "Custom Stencil Text (Optional)",
+                  "stage": 4,
+                  "price": 100,
+                  "image": "coupling.png",
+                  "selected": false,
+                  "fields": []
+                }
+              ]
+            },
+            {
+              "title": "Color",
+              "name": "Yellow",
+              "label": "Choose Your Coupling",
+              "stage": 3,
+              "price": 100,
+              "image": "yellow.jpg",
+              "selected": false,
+              "fields": [
+                {
+                  "title": "Coupling",
+                  "name": "Aluminum 4 inch STORZ",
+                  "variationId": 2212,
+                  "label": "Custom Stencil Text (Optional)",
+                  "stage": 4,
+                  "price": 100,
+                  "image": "coupling.png",
+                  "selected": false,
+                  "fields": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Length",
+          "name": "100 ft",
+          "label": "Choose Your Color",
+          "stage": 2,
+          "price": 100,
 
-					"image": "200-length.png",
-					"selected": false,
-					"fields": [
-						{
-							"title": "Color",
-							"name": "Red",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "red.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Orange",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "orange.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Yellow",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "yellow.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Green",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "green.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Blue",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "blue.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"title": "Diameter",
-			"name": "2 1/2 in.",
-			"label": "Choose Your Length",
-			"stage": 1,
-			"price": 100,
-			"image": "2.5-diameter.png",
-			"selected": false,
-			"fields": [
-				{
-					"title": "Length",
-					"name": "50 ft",
-					"label": "Choose Your Color",
-					"stage": 2,
-					"price": 100,
-
-					"image": "50-length.png",
-					"selected": false,
-					"fields": [
-						{
-							"title": "Color",
-							"name": "Red",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "red.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Orange",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "orange.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Yellow",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "yellow.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Green",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "green.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Blue",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "blue.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						}
-					]
-				},
-				{
-					"title": "Length",
-					"name": "100 ft",
-					"label": "Choose Your Color",
-					"stage": 2,
-					"price": 100,
-
-					"image": "100-length.png",
-					"selected": false,
-					"fields": [
-						{
-							"title": "Color",
-							"name": "Red",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "red.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Orange",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "orange.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Yellow",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "yellow.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Green",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "green.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Blue",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "blue.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						}
-					]
-				},
-				{
-					"title": "Length",
-					"name": "200 ft",
-					"label": "Choose Your Color",
-					"stage": 2,
-					"price": 100,
-
-					"image": "200-length.png",
-					"selected": false,
-					"fields": [
-						{
-							"title": "Color",
-							"name": "Red",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "red.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Orange",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "orange.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Yellow",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "yellow.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Green",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "green.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						},
-						{
-							"title": "Color",
-							"name": "Blue",
-							"label": "Choose Your Coupling",
-							"stage": 3,
-							"price": 100,
-							"image": "blue.jpg",
-							"selected": false,
-							"fields": [
-								{
-									"title": "Coupling",
-									"name": "ABC Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "XYZ Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								},
-								{
-									"title": "Coupling",
-									"name": "123 Coupling",
-									"variationId": 5608,
-									"label": "Custom Stencil Text (Optional)",
-									"stage": 4,
-									"price": 100,
-									"image": "coupling.png",
-									"selected": false,
-									"fields": []
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+          "image": "100-length.png",
+          "selected": false,
+          "fields": [
+            {
+              "title": "Color",
+              "name": "Red",
+              "label": "Choose Your Coupling",
+              "stage": 3,
+              "price": 100,
+              "image": "red.jpg",
+              "selected": false,
+              "fields": [
+                {
+                  "title": "Coupling",
+                  "name": "Aluminum 4 inch STORZ",
+                  "variationId": 2214,
+                  "label": "Custom Stencil Text (Optional)",
+                  "stage": 4,
+                  "price": 100,
+                  "image": "coupling.png",
+                  "selected": false,
+                  "fields": []
+                }
+              ]
+            },
+            {
+              "title": "Color",
+              "name": "Yellow",
+              "label": "Choose Your Coupling",
+              "stage": 3,
+              "price": 100,
+              "image": "yellow.jpg",
+              "selected": false,
+              "fields": [
+                {
+                  "title": "Coupling",
+                  "name": "Aluminum 4 inch STORZ",
+                  "variationId": 2216,
+                  "label": "Custom Stencil Text (Optional)",
+                  "stage": 4,
+                  "price": 100,
+                  "image": "coupling.png",
+                  "selected": false,
+                  "fields": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,0 +1,329 @@
+{
+  "productName": "Yellow Chief",
+  "productId": 2457,
+  "slug": "yellow-chief",
+  "mainImage": "main-firepower-ii.png",
+  "label": "Choose Your Diameter",
+  "name": "Diameter",
+  "stage": 0,
+  "price": 100,
+  "fields": [
+    {
+      "title": "Diameter",
+      "name": "1 1/2 in",
+      "label": "Choose Your Length",
+      "stage": 1,
+      "price": 100,
+      "image": "1.5-diameter.png",
+      "selected": false,
+      "fields": [
+        {
+          "title": "Length",
+          "name": "50 ft",
+          "label": "Choose Your Color",
+          "stage": 2,
+          "price": 100,
+
+          "image": "50-length.png",
+          "selected": false,
+          "fields": [
+            {
+              "title": "Color",
+              "name": "Yellow",
+              "label": "Choose Your Coupling",
+              "stage": 3,
+              "price": 100,
+              "image": "yellow.jpg",
+              "selected": false,
+              "fields": [
+                {
+                  "title": "Coupling",
+                  "name": "Aluminum 1.5 inch NH Rocker Lug",
+                  "variationId": 2458,
+                  "label": "Custom Stencil Text (Optional)",
+                  "stage": 4,
+                  "price": 100,
+                  "image": "coupling.png",
+                  "selected": false,
+                  "fields": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Length",
+          "name": "100 ft",
+          "label": "Choose Your Color",
+          "stage": 2,
+          "price": 100,
+
+          "image": "100-length.png",
+          "selected": false,
+          "fields": [
+            {
+              "title": "Color",
+              "name": "Yellow",
+              "label": "Choose Your Coupling",
+              "stage": 3,
+              "price": 100,
+              "image": "yellow.jpg",
+              "selected": false,
+              "fields": [
+                {
+                  "title": "Coupling",
+                  "name": "Aluminum 1.5 inch NH Rocker Lug",
+                  "variationId": 2460,
+                  "label": "Custom Stencil Text (Optional)",
+                  "stage": 4,
+                  "price": 100,
+                  "image": "coupling.png",
+                  "selected": false,
+                  "fields": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Diameter",
+      "name": "1 3/4 in",
+      "label": "Choose Your Length",
+      "stage": 1,
+      "price": 100,
+      "image": "1.75-diameter.png",
+      "selected": false,
+      "fields": [
+        {
+          "title": "Length",
+          "name": "50 ft",
+          "label": "Choose Your Color",
+          "stage": 2,
+          "price": 100,
+
+          "image": "50-length.png",
+          "selected": false,
+          "fields": [
+            {
+              "title": "Color",
+              "name": "Yellow",
+              "label": "Choose Your Coupling",
+              "stage": 3,
+              "price": 100,
+              "image": "yellow.jpg",
+              "selected": false,
+              "fields": [
+                {
+                  "title": "Coupling",
+                  "name": "Aluminum 1.5 inch NH Rocker Lug",
+                  "variationId": 2462,
+                  "label": "Custom Stencil Text (Optional)",
+                  "stage": 4,
+                  "price": 100,
+                  "image": "coupling.png",
+                  "selected": false,
+                  "fields": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Length",
+          "name": "100 ft",
+          "label": "Choose Your Color",
+          "stage": 2,
+          "price": 100,
+
+          "image": "100-length.png",
+          "selected": false,
+          "fields": [
+            {
+              "title": "Color",
+              "name": "Yellow",
+              "label": "Choose Your Coupling",
+              "stage": 3,
+              "price": 100,
+              "image": "yellow.jpg",
+              "selected": false,
+              "fields": [
+                {
+                  "title": "Coupling",
+                  "name": "Aluminum 1.5 inch NH Rocker Lug",
+                  "variationId": 2464,
+                  "label": "Custom Stencil Text (Optional)",
+                  "stage": 4,
+                  "price": 100,
+                  "image": "coupling.png",
+                  "selected": false,
+                  "fields": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "title": "Diameter",
+      "name": "2 1/2 in",
+      "label": "Choose Your Length",
+      "stage": 1,
+      "price": 100,
+      "image": "2.5-diameter.png",
+      "selected": false,
+      "fields": [
+        {
+          "title": "Length",
+          "name": "50 ft",
+          "label": "Choose Your Color",
+          "stage": 2,
+          "price": 100,
+
+          "image": "50-length.png",
+          "selected": false,
+          "fields": [
+            {
+              "title": "Color",
+              "name": "Yellow",
+              "label": "Choose Your Coupling",
+              "stage": 3,
+              "price": 100,
+              "image": "yellow.jpg",
+              "selected": false,
+              "fields": [
+                {
+                  "title": "Coupling",
+                  "name": "Aluminum 2.5 inch NH Rocker Lug",
+                  "variationId": 2470,
+                  "label": "Custom Stencil Text (Optional)",
+                  "stage": 4,
+                  "price": 100,
+                  "image": "coupling.png",
+                  "selected": false,
+                  "fields": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Length",
+          "name": "100 ft",
+          "label": "Choose Your Color",
+          "stage": 2,
+          "price": 100,
+
+          "image": "100-length.png",
+          "selected": false,
+          "fields": [
+            {
+              "title": "Color",
+              "name": "Yellow",
+              "label": "Choose Your Coupling",
+              "stage": 3,
+              "price": 100,
+              "image": "yellow.jpg",
+              "selected": false,
+              "fields": [
+                {
+                  "title": "Coupling",
+                  "name": "Aluminum 2.5 inch NH Rocker Lug",
+                  "variationId": 2472,
+                  "label": "Custom Stencil Text (Optional)",
+                  "stage": 4,
+                  "price": 100,
+                  "image": "coupling.png",
+                  "selected": false,
+                  "fields": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Diameter",
+      "name": "3 in",
+      "label": "Choose Your Length",
+      "stage": 1,
+      "price": 100,
+      "image": "3-diameter.png",
+      "selected": false,
+      "fields": [
+        {
+          "title": "Length",
+          "name": "50 ft",
+          "label": "Choose Your Color",
+          "stage": 2,
+          "price": 100,
+
+          "image": "50-length.png",
+          "selected": false,
+          "fields": [
+            {
+              "title": "Color",
+              "name": "Yellow",
+              "label": "Choose Your Coupling",
+              "stage": 3,
+              "price": 100,
+              "image": "yellow.jpg",
+              "selected": false,
+              "fields": [
+                {
+                  "title": "Coupling",
+                  "name": "Aluminum 2.5 inch NH Rocker Lug",
+                  "variationId": 2474,
+                  "label": "Custom Stencil Text (Optional)",
+                  "stage": 4,
+                  "price": 100,
+                  "image": "coupling.png",
+                  "selected": false,
+                  "fields": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Length",
+          "name": "100 ft",
+          "label": "Choose Your Color",
+          "stage": 2,
+          "price": 100,
+
+          "image": "100-length.png",
+          "selected": false,
+          "fields": [
+            {
+              "title": "Color",
+              "name": "Yellow",
+              "label": "Choose Your Coupling",
+              "stage": 3,
+              "price": 100,
+              "image": "yellow.jpg",
+              "selected": false,
+              "fields": [
+                {
+                  "title": "Coupling",
+                  "name": "Aluminum 2.5 inch NH Rocker Lug",
+                  "variationId": 2476,
+                  "label": "Custom Stencil Text (Optional)",
+                  "stage": 4,
+                  "price": 100,
+                  "image": "coupling.png",
+                  "selected": false,
+                  "fields": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

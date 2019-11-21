@@ -1,16 +1,30 @@
 .custom-text {
-	margin-top: 35px;
-	margin-bottom: 15px;
+  margin-top: 35px;
+  margin-bottom: 15px;
 }
 .custom-text p {
-	margin-bottom: 10px !important;
+  margin-bottom: 10px !important;
 }
-.custom-text input {
-	width: 100%;
-	font-family: "StencilGothic", "Saira Stencil One";
-	text-transform: uppercase;
-	font-size: 20px;
-	line-height: 20px;
+.custom-text .stencil-textbox {
+  display: none;
+  width: 100%;
+  font-family: "StencilGothic", "Saira Stencil One";
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 25px;
+  padding: 7px;
+}
 
-	padding: 7px;
+.custom-text .stencil-textbox.open {
+  display: block;
+}
+
+.radioBtn.one {
+  margin-right: 15px;
+}
+
+.radioBtn.one input,
+.radioBtn.two input {
+  margin-right: 5px;
 }
