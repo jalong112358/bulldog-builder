@@ -9,7 +9,7 @@ import "./ProductSelection.css";
 
 import fireguard from "../../images/fireguard/hose.png";
 
-import firepowerii from "../../images/firepower-ii/hose.png";
+// import firepowerii from "../../images/firepower-ii/hose.png";
 
 import hiCombatii from "../../images/hi-combat-ii/hose.png";
 
