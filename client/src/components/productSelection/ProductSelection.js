@@ -9,23 +9,23 @@ import "./ProductSelection.css";
 
 // import fireguard from "../../images/fireguard/hose.png";
 
-// import firepowerii from "../../images/firepower-ii/hose.png";
+// import firepowerii from "../../images/firepowerii/hose.png";
 
-// import hiCombatii from "../../images/hi-combat-ii/hose.png";
+// import hiCombatii from "../../images/hiCombatii/hose.png";
 
-// import hiPower from "../../images/hi-power/hose.png";
+// import hiPower from "../../images/hiPower/hose.png";
 
-// import hiVol from "../../images/hi-vol/hose.png";
+// import hiVol from "../../images/hiVol/hose.png";
 
-// import hiVolTpu from "../../images/hi-vol-tpu/hose.png";
+// import hiVolTpu from "../../images/hiVolTpu/hose.png";
 
-// import redChief from "../../images/red-chief/hose.png";
+// import redChief from "../../images/redChief/hose.png";
 
 // import redskin from "../../images/redskin/hose.png";
 
 import ultima from "../../images/ultima/hose.png";
 
-// import yellowChief from "../../images/yellow-chief/hose.png";
+// import yellowChief from "../../images/yellowChief/hose.png";
 
 class ProductSelection extends Component {
   componentDidMount() {
@@ -66,7 +66,7 @@ class ProductSelection extends Component {
               </p>
               <Link
                 className="btn-primary"
-                to="/build/firepower-ii"
+                to="/build/firepowerii"
                 onClick={this.onClick}
               >
                 Select
@@ -84,7 +84,7 @@ class ProductSelection extends Component {
               </p>
               <Link
                 className="btn-primary"
-                to="/build/hi-combat-ii"
+                to="/build/hiCombatii"
                 onClick={this.onClick}
               >
                 Select
@@ -102,7 +102,7 @@ class ProductSelection extends Component {
               </p>
               <Link
                 className="btn-primary"
-                to="/build/hi-vol"
+                to="/build/hiVol"
                 onClick={this.onClick}
               >
                 Select
@@ -120,7 +120,7 @@ class ProductSelection extends Component {
               </p>
               <Link
                 className="btn-primary"
-                to="/build/hi-vol-tpu"
+                to="/build/hiVolTpu"
                 onClick={this.onClick}
               >
                 Select
@@ -138,7 +138,7 @@ class ProductSelection extends Component {
               </p>
               <Link
                 className="btn-primary"
-                to="/build/hi-power"
+                to="/build/hiPower"
                 onClick={this.onClick}
               >
                 Select
@@ -174,7 +174,7 @@ class ProductSelection extends Component {
               </p>
               <Link
                 className="btn-primary"
-                to="/build/red-chief"
+                to="/build/redChief"
                 onClick={this.onClick}
               >
                 Select
@@ -192,7 +192,7 @@ class ProductSelection extends Component {
               </p>
               <Link
                 className="btn-primary"
-                to="/build/yellow-chief"
+                to="/build/yellowChief"
                 onClick={this.onClick}
               >
                 Select
