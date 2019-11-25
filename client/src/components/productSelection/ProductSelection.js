@@ -128,7 +128,7 @@ class ProductSelection extends Component {
             </div>
           </div>
           <div className="product">
-            <img src={hiPower} />
+            {/* <img src={hiPower} /> */}
             <div className="product-info">
               <h3>Hi-Power</h3>
               <p>
