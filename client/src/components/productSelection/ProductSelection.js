@@ -7,25 +7,25 @@ import { connect } from "react-redux";
 
 import "./ProductSelection.css";
 
-// import fireguard from "../../images/fireguard/hose.png";
+import fireguard from "../../images/fireguard/hose.png";
 
-// import firepowerii from "../../images/firepowerii/hose.png";
+import firepowerii from "../../images/firepowerii/hose.png";
 
-// import hiCombatii from "../../images/hiCombatii/hose.png";
+import hiCombatii from "../../images/hiCombatii/hose.png";
 
-// import hiPower from "../../images/hiPower/hose.png";
+import hiPower from "../../images/hiPower/hose.png";
 
-// import hiVol from "../../images/hiVol/hose.png";
+import hiVol from "../../images/hiVol/hose.png";
 
-// import hiVolTpu from "../../images/hiVolTpu/hose.png";
+import hiVolTpu from "../../images/hiVolTpu/hose.png";
 
-// import redChief from "../../images/redChief/hose.png";
+import redChief from "../../images/redChief/hose.png";
 
-// import redskin from "../../images/redskin/hose.png";
+import redskin from "../../images/redskin/hose.png";
 
 import ultima from "../../images/ultima/hose.png";
 
-// import yellowChief from "../../images/yellowChief/hose.png";
+import yellowChief from "../../images/yellowChief/hose.png";
 
 class ProductSelection extends Component {
   componentDidMount() {
@@ -38,7 +38,7 @@ class ProductSelection extends Component {
         <h1>BUILD YOUR OWN</h1>
         <div id="product-selection">
           <div className="product">
-            {/* <img src={fireguard} /> */}
+            <img src={fireguard} />
             <div className="product-info">
               <h3>Fireguard</h3>
               <p>
@@ -56,7 +56,7 @@ class ProductSelection extends Component {
             </div>
           </div>
           <div className="product">
-            {/* <img src={firepowerii} /> */}
+            <img src={firepowerii} />
             <div className="product-info">
               <h3>Firepower II</h3>
               <p>
@@ -74,7 +74,7 @@ class ProductSelection extends Component {
             </div>
           </div>
           <div className="product">
-            {/* <img src={hiCombatii} /> */}
+            <img src={hiCombatii} />
             <div className="product-info">
               <h3>Hi-Combat II</h3>
               <p>
@@ -92,7 +92,7 @@ class ProductSelection extends Component {
             </div>
           </div>
           <div className="product">
-            {/* <img src={hiVol} /> */}
+            <img src={hiVol} />
             <div className="product-info">
               <h3>Hi-Vol</h3>
               <p>
@@ -110,7 +110,7 @@ class ProductSelection extends Component {
             </div>
           </div>
           <div className="product">
-            {/* <img src={hiVolTpu} /> */}
+            <img src={hiVolTpu} />
             <div className="product-info">
               <h3>Hi-Vol TPU</h3>
               <p>
@@ -128,7 +128,7 @@ class ProductSelection extends Component {
             </div>
           </div>
           <div className="product">
-            {/* <img src={hiPower} /> */}
+            <img src={hiPower} />
             <div className="product-info">
               <h3>Hi-Power</h3>
               <p>
@@ -164,7 +164,7 @@ class ProductSelection extends Component {
             </div>
           </div>
           <div className="product">
-            {/* <img src={redChief} /> */}
+            <img src={redChief} />
             <div className="product-info">
               <h3>Red Chief</h3>
               <p>
@@ -182,7 +182,7 @@ class ProductSelection extends Component {
             </div>
           </div>
           <div className="product">
-            {/* <img src={yellowChief} /> */}
+            <img src={yellowChief} />
             <div className="product-info">
               <h3>Yellow Chief</h3>
               <p>
@@ -200,7 +200,7 @@ class ProductSelection extends Component {
             </div>
           </div>
           <div className="product">
-            {/* <img src={redskin} /> */}
+            <img src={redskin} />
             <div className="product-info">
               <h3>Redskin</h3>
               <p>
