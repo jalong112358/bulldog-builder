@@ -23,7 +23,7 @@ import "./ProductSelection.css";
 
 // import redskin from "../../images/redskin/hose.png";
 
-// import ultima from "../../images/ultima/hose.png";
+import ultima from "../../images/ultima/hose.png";
 
 // import yellowChief from "../../images/yellow-chief/hose.png";
 
@@ -146,7 +146,7 @@ class ProductSelection extends Component {
             </div>
           </div>
           <div className="product">
-            {/* <img src={ultima} /> */}
+            <img src={ultima} />
             <div className="product-info">
               <h3>Ultima</h3>
               <p>
