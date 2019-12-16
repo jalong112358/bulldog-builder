@@ -64,11 +64,11 @@ class ProductReview extends Component {
           <img src={Logo} />
         </div>
         {this.state.buildData.length !== 0 ? (
-          <img
-            className="img-main"
-            width="100%"
-            src={require(`../../../images/${this.state.buildData.slug}/hose.png`)}
-          />
+          <div className="img-main">
+            <img
+              src={require(`../../../images/${this.state.buildData.slug}/hose.png`)}
+            />
+          </div>
         ) : null}
         {imageNumber !== "" && customText !== "" ? (
           <div className="image-preview">
@@ -80,7 +80,7 @@ class ProductReview extends Component {
           </div>
         ) : null}
         <p className="disclaimer">
-          &#x2a;Image for reference only. Final product may vary.
+          &#x2a;Image and colors for reference only. Final product may vary.
         </p>
         <div className="specs-wrapper">
           <h1>
@@ -99,6 +99,23 @@ class ProductReview extends Component {
               {this.state.buildData.totalPrice}
             </p>
           </div>
+        </div>
+
+        <div className="print-contact-footer">
+          <span>
+            <p>141 Junny Rd. Angier, NC 27501</p>
+          </span>
+
+          <span>
+            <p>customerservice@bulldoghose.com</p>
+          </span>
+
+          <span>
+            <p>P 712.655.9201</p>
+          </span>
+          <span>
+            <p>TF 833.655.9201</p>
+          </span>
         </div>
       </div>
     );

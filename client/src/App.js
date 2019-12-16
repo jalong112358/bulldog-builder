@@ -13,38 +13,38 @@ import Header from "./components/common/Header";
 import Footer from "./components/common/Footer";
 
 class App extends Component {
-	state = {};
+  state = {};
 
-	componentDidMount() {
-		let defaultPath = window.location.pathname;
-		defaultPath = defaultPath.replace(/\//g, "");
-		this.setState({
-			base_url: `/${defaultPath}`
-		});
-	}
+  componentDidMount() {
+    let defaultPath = window.location.pathname;
+    defaultPath = defaultPath.replace(/\//g, "");
+    this.setState({
+      base_url: `/${defaultPath}`
+    });
+  }
 
-	render() {
-		return (
-			<Provider store={store}>
-				<div className="App">
-					<Nav />
-					<Header />
-					<BrowserRouter>
-						<main>
-							{/* <Sidebar /> */}
+  render() {
+    return (
+      <Provider store={store}>
+        <div className="App">
+          {/* <Nav />
+					<Header /> */}
+          <BrowserRouter>
+            <main>
+              {/* <Sidebar /> */}
 
-							<Switch>
-								<Route exact path="/" component={ProductSelection} />
-								<Route exact path="/build/:product" component={Builder} />
-								<Route exact path="/build-preview/:id" component={Submission} />
-							</Switch>
-						</main>
-					</BrowserRouter>
-					<Footer />
-				</div>
-			</Provider>
-		);
-	}
+              <Switch>
+                <Route exact path="/" component={ProductSelection} />
+                <Route exact path="/build/:product" component={Builder} />
+                <Route exact path="/build-preview/:id" component={Submission} />
+              </Switch>
+            </main>
+          </BrowserRouter>
+          {/* <Footer /> */}
+        </div>
+      </Provider>
+    );
+  }
 }
 
 export default App;

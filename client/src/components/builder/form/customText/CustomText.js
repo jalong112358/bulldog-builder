@@ -48,17 +48,22 @@ class CustomText extends Component {
           />
           Yes
         </label>
-        <input
-          class={
+        <div
+          className={
             this.state.textToggled === "Yes"
-              ? "stencil-textbox open"
-              : "stencil-textbox"
+              ? "stencil-textbox-wrapper open"
+              : "stencil-textbox-wrapper"
           }
-          type="text"
-          maxlength="32"
-          onChange={this.changeText}
-          value={this.props.customText}
-        ></input>
+        >
+          <input
+            className="stencil-textbox"
+            type="text"
+            maxlength="26"
+            onChange={this.changeText}
+            value={this.props.customText}
+          ></input>
+          <p className="disclaimer">*26 character limit</p>
+        </div>
       </div>
     );
   }

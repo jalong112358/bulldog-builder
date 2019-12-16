@@ -5,8 +5,13 @@
 .custom-text p {
   margin-bottom: 10px !important;
 }
-.custom-text .stencil-textbox {
+.custom-text .stencil-textbox-wrapper {
   display: none;
+}
+.custom-text .stencil-textbox-wrapper.open {
+  display: block;
+}
+.custom-text .stencil-textbox {
   width: 100%;
   font-family: "StencilGothic", "Saira Stencil One";
   text-transform: uppercase;
@@ -14,10 +19,6 @@
   line-height: 20px;
   margin-top: 25px;
   padding: 7px;
-}
-
-.custom-text .stencil-textbox.open {
-  display: block;
 }
 
 .radioBtn.one {

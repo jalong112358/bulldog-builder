@@ -29,6 +29,13 @@ class NextBtn extends Component {
     return (
       <div onClick={this.handleClick} className="next-wrapper">
         <div className="next-btn">NEXT</div>
+        {this.props.loading ? (
+          <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+          </div>
+        ) : null}
       </div>
     );
   }
@@ -39,6 +46,7 @@ const mapStateToProps = state => {
     selectedPath: state.main.selectedPath,
     price: state.main.price,
     UrlId: state.main.UrlId,
+    loading: state.main.loading,
     productId: state.main.productId,
     variationId: state.main.variationId,
     pathIndex: state.main.pathIndex,

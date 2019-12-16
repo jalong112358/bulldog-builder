@@ -2,11 +2,12 @@
 	"productName": "Ultima",
 	"productId": 2267,
 	"slug": "ultima",
-	"mainImage": "main-firepower-ii.png",
+	"mainImage": "main-firepower-ii.jpg",
 	"label": "Choose Your Diameter",
 	"name": "Diameter",
 	"stage": 0,
 	"price": 100,
+	"hasCustomText": false,
 	"fields": [
 		{
 			"title": "Diameter",
@@ -14,7 +15,7 @@
 			"label": "Choose Your Length",
 			"stage": 1,
 			"price": 100,
-			"image": "1.5-diameter.png",
+			"image": "1.5-diameter.jpg",
 			"selected": false,
 			"fields": [
 				{
@@ -24,7 +25,7 @@
 					"stage": 2,
 					"price": 100,
 
-					"image": "50-length.png",
+					"image": "50-length.jpg",
 					"selected": false,
 					"fields": [
 						{
@@ -43,7 +44,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -65,7 +66,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -87,7 +88,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -109,7 +110,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -131,7 +132,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -153,7 +154,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -175,7 +176,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -190,7 +191,7 @@
 					"stage": 2,
 					"price": 100,
 
-					"image": "100-length.png",
+					"image": "100-length.jpg",
 					"selected": false,
 					"fields": [
 						{
@@ -209,7 +210,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -231,7 +232,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -253,7 +254,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -275,7 +276,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -297,7 +298,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -319,7 +320,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -341,7 +342,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -357,7 +358,7 @@
 			"label": "Choose Your Length",
 			"stage": 1,
 			"price": 100,
-			"image": "1.75-diameter.png",
+			"image": "1.75-diameter.jpg",
 			"selected": false,
 			"fields": [
 				{
@@ -367,7 +368,7 @@
 					"stage": 2,
 					"price": 100,
 
-					"image": "50-length.png",
+					"image": "50-length.jpg",
 					"selected": false,
 					"fields": [
 						{
@@ -386,7 +387,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -408,7 +409,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -430,7 +431,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -452,7 +453,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -474,7 +475,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -496,7 +497,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -518,7 +519,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -533,7 +534,7 @@
 					"stage": 2,
 					"price": 100,
 
-					"image": "100-length.png",
+					"image": "100-length.jpg",
 					"selected": false,
 					"fields": [
 						{
@@ -552,7 +553,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -574,7 +575,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -596,7 +597,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -618,7 +619,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -640,7 +641,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -662,7 +663,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -684,7 +685,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -700,7 +701,7 @@
 			"label": "Choose Your Length",
 			"stage": 1,
 			"price": 100,
-			"image": "2-diameter.png",
+			"image": "2-diameter.jpg",
 			"selected": false,
 			"fields": [
 				{
@@ -710,7 +711,7 @@
 					"stage": 2,
 					"price": 100,
 
-					"image": "50-length.png",
+					"image": "50-length.jpg",
 					"selected": false,
 					"fields": [
 						{
@@ -729,7 +730,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								},
@@ -740,7 +741,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -762,7 +763,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								},
@@ -773,7 +774,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -795,7 +796,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								},
@@ -806,7 +807,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -828,7 +829,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								},
@@ -839,7 +840,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -861,7 +862,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								},
@@ -872,7 +873,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -894,7 +895,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								},
@@ -905,7 +906,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -927,7 +928,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								},
@@ -938,7 +939,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -953,7 +954,7 @@
 					"stage": 2,
 					"price": 100,
 
-					"image": "100-length.png",
+					"image": "100-length.jpg",
 					"selected": false,
 					"fields": [
 						{
@@ -972,7 +973,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								},
@@ -983,7 +984,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1005,7 +1006,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								},
@@ -1016,7 +1017,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1038,7 +1039,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								},
@@ -1049,7 +1050,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1071,7 +1072,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								},
@@ -1082,7 +1083,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1104,7 +1105,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								},
@@ -1115,7 +1116,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1137,7 +1138,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								},
@@ -1148,7 +1149,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1170,7 +1171,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								},
@@ -1181,7 +1182,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1197,7 +1198,7 @@
 			"label": "Choose Your Length",
 			"stage": 1,
 			"price": 100,
-			"image": "2.5-diameter.png",
+			"image": "2.5-diameter.jpg",
 			"selected": false,
 			"fields": [
 				{
@@ -1207,7 +1208,7 @@
 					"stage": 2,
 					"price": 100,
 
-					"image": "50-length.png",
+					"image": "50-length.jpg",
 					"selected": false,
 					"fields": [
 						{
@@ -1227,7 +1228,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1250,7 +1251,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1273,7 +1274,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1296,7 +1297,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1319,7 +1320,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1342,7 +1343,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1365,7 +1366,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1380,7 +1381,7 @@
 					"stage": 2,
 					"price": 100,
 
-					"image": "100-length.png",
+					"image": "100-length.jpg",
 					"selected": false,
 					"fields": [
 						{
@@ -1400,7 +1401,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1423,7 +1424,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1446,7 +1447,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1469,7 +1470,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1492,7 +1493,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1515,7 +1516,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1538,7 +1539,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1554,7 +1555,7 @@
 			"label": "Choose Your Length",
 			"stage": 1,
 			"price": 100,
-			"image": "3-diameter.png",
+			"image": "3-diameter.jpg",
 			"selected": false,
 			"fields": [
 				{
@@ -1564,7 +1565,7 @@
 					"stage": 2,
 					"price": 100,
 
-					"image": "50-length.png",
+					"image": "50-length.jpg",
 					"selected": false,
 					"fields": [
 						{
@@ -1584,7 +1585,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1607,7 +1608,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1630,7 +1631,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1653,7 +1654,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1676,7 +1677,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1699,7 +1700,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1722,7 +1723,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1737,7 +1738,7 @@
 					"stage": 2,
 					"price": 100,
 
-					"image": "100-length.png",
+					"image": "100-length.jpg",
 					"selected": false,
 					"fields": [
 						{
@@ -1757,7 +1758,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1780,7 +1781,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1803,7 +1804,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1826,7 +1827,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1849,7 +1850,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1872,7 +1873,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}
@@ -1895,7 +1896,7 @@
 									"label": "Custom Stencil Text (Optional)",
 									"stage": 4,
 									"price": 100,
-									"image": "coupling.png",
+									"image": "coupling.jpg",
 									"selected": false,
 									"fields": []
 								}

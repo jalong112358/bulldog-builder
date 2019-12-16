@@ -18,8 +18,14 @@
   width: 100%;
 }
 .img-main {
+  display: none;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+.img-main img {
   width: 50%;
-  margin-top: -50px;
+  margin: 0 auto;
 }
 
 .image-preview {
@@ -83,6 +89,16 @@
 } */
 .spec-row span {
   width: 100%;
+}
+.print-contact-footer {
+  display: none;
+  margin-bottom: 25px;
+  text-align: center;
+}
+@media print {
+  .print-contact-footer {
+    display: block;
+  }
 }
 
 @media (max-width: 1150px) {
