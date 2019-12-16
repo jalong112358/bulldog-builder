@@ -27,8 +27,8 @@ class App extends Component {
     return (
       <Provider store={store}>
         <div className="App">
-          {/* <Nav />
-					<Header /> */}
+          <Nav />
+          <Header />
           <BrowserRouter>
             <main>
               {/* <Sidebar /> */}
@@ -40,7 +40,7 @@ class App extends Component {
               </Switch>
             </main>
           </BrowserRouter>
-          {/* <Footer /> */}
+          <Footer />
         </div>
       </Provider>
     );
