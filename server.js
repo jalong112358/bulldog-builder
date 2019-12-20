@@ -7,6 +7,7 @@ const bodyParser = require("body-parser");
 // const validateInput = require("./form-validation");
 const { google } = require("googleapis");
 const OAuth2 = google.auth.OAuth2;
+const cors = require('cors')
 
 const path = require("path");
 const app = express();
@@ -32,24 +33,7 @@ const connectDB = async () => {
 
 connectDB();
 // Add headers
-app.use(function(req, res, next) {
-  // Website you wish to allow to connect
-  res.setHeader(
-    "Access-Control-Allow-Origin",
-    "http://staging.bulldoghose.flywheelsites.com/product-builder/build/fireguard"
-  );
-
-  // Request methods you wish to allow
-  res.setHeader(
-    "Access-Control-Allow-Methods",
-    "GET, POST, OPTIONS, PUT, PATCH, DELETE"
-  );
-
-  // Request headers you wish to allow
-  res.setHeader(
-    "Access-Control-Allow-Headers",
-    "X-Requested-With,content-type"
-  );
+app.use(cors())
 
   // Set to true if you need the website to include cookies in the requests sent
   // to the API (e.g. in case you use sessions)
