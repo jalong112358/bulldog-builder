@@ -36,7 +36,7 @@ app.use(function(req, res, next) {
   // Website you wish to allow to connect
   res.setHeader(
     "Access-Control-Allow-Origin",
-    "http://staging.bulldoghose.flywheelsites.com/"
+    "http://staging.bulldoghose.flywheelsites.com/product-builder/build/fireguard"
   );
 
   // Request methods you wish to allow
