@@ -31,7 +31,7 @@ class App extends Component {
           <Header />
           <BrowserRouter>
             <main>
-              {/* <Sidebar /> */}
+              <Sidebar />
 
               <Switch>
                 <Route exact path="/" component={ProductSelection} />
